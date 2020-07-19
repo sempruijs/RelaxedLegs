@@ -85,6 +85,11 @@ public class PlayerMovement : MonoBehaviour
               {
                   _jumpsLeft = amountOfJumps;
               }
+
+              if (other.gameObject.CompareTag("Spike"))
+              {
+                  GameManager.Instance.PlayAgain();
+              }
           }
       }
 

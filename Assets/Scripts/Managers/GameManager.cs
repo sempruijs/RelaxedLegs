@@ -63,6 +63,11 @@ public class GameManager : MonoBehaviour
     {
         state = State.Settings;
     }
+
+    public void PlayAgain()
+    {
+        state = State.PlayAgain;
+    }
     
     public void ReloadCurrentScene() 
     {

@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - AudioManager
   - Coin
+  - Spike
   layers:
   - Default
   - TransparentFX
