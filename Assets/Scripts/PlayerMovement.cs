@@ -6,23 +6,25 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
       //Input
+      [Header("Input")]
       private float _moveHorizontal;
       private float _moveVertical;
-
       private Vector2 _movement;
       
       //Speed
+      [Header("Speed")]
       public float moveSpeed;
       public float jumpForce;
       
       //Data
+      [Header("Data")]
       public int amountOfJumps;
       private int _jumpsLeft;
-      
       public bool turnAroundAnimation;
       public bool topDown;
 
       //Components
+      [Header("Components")]
       private Rigidbody2D _rb2d;
       private AudioSource _audioSource;
       
