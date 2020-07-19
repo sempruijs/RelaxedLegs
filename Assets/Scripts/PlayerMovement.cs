@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
   
       void Update()
       {
-          _moveHorizontal = Input.GetAxis("Horizontal");
+          // _moveHorizontal = Input.GetAxis("Horizontal");
 
           if (topDown)
           {
