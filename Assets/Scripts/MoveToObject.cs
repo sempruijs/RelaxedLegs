@@ -6,7 +6,7 @@ using UnityEngine;
 public class MoveToObject : MonoBehaviour
 {
     public float speed;
-    public GameObject point;
+    public Vector3 point;
 
     private bool _shouldBeMoving = true;
     
@@ -14,21 +14,21 @@ public class MoveToObject : MonoBehaviour
     {
         if (GameManager.Instance.state == GameManager.State.InGame)
         {
-            if (_shouldBeMoving)
-            {
+            // if (_shouldBeMoving)
+            // {
                 float step =  speed * Time.deltaTime;
-                transform.position = Vector3.MoveTowards(transform.position, point.transform.position, step);
-            }
+                transform.position = Vector3.MoveTowards(transform.position, point, step);
+            // }
         }
     }
-
-    private void OnCollisionExit2D()
-    {
-        _shouldBeMoving = true;
-    }
-
-    private void OnCollisionEnter2D()
-    {
-        _shouldBeMoving = false;
-    }
+//
+//     private void OnCollisionExit2D()
+//     {
+//         _shouldBeMoving = true;
+//     }
+//
+//     private void OnCollisionEnter2D()
+//     {
+//         _shouldBeMoving = false;
+//     }
 }

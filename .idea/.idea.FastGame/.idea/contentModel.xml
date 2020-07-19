@@ -18,6 +18,7 @@
             <e p="DisplayManager.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
           </e>
+          <e p="MoveChunk.cs" t="Include" />
           <e p="MoveObjectBetweenPoints.cs" t="Include" />
           <e p="MoveToObject.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
@@ -25,6 +26,7 @@
           <e p="Rotate.cs" t="Include" />
           <e p="Spawn" t="Include">
             <e p="SpawnBetweenTwoPoints.cs" t="Include" />
+            <e p="SpawnChunk.cs" t="Include" />
             <e p="SpawnObjectInTimeFrame.cs" t="Include" />
             <e p="SpawnObjectWithKey.cs" t="Include" />
           </e>
