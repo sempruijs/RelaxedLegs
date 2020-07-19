@@ -19,6 +19,10 @@ public class MoveToObject : MonoBehaviour
                 float step =  speed * Time.deltaTime;
                 transform.position = Vector3.MoveTowards(transform.position, point, step);
             // }
+            if (transform.position.x <= point.x)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 //
