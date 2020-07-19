@@ -4873,6 +4873,8 @@ MonoBehaviour:
   turnAroundAnimation: 1
   topDown: 0
   jumpSound: {fileID: 8300000, guid: c5fb5611c1338468389d3d34b99c75d7, type: 3}
+  trampolineSound: {fileID: 8300000, guid: 7a1da4abc57254fae9da0e03c8b72cd5, type: 3}
+  deadSound: {fileID: 8300000, guid: 8cb2a3ec8455846169ad3a04259dbbee, type: 3}
 --- !u!82 &1704850084
 AudioSource:
   m_ObjectHideFlags: 0

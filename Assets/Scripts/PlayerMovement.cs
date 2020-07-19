@@ -31,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
       //Sound
       [Header("AudioClips")]
       public AudioClip jumpSound;
+      public AudioClip trampolineSound;
+      public AudioClip deadSound;
 
       void Start()
       {
@@ -58,11 +60,7 @@ public class PlayerMovement : MonoBehaviour
           {
               if (Input.GetKeyDown("space") || Input.GetKeyDown("w") || Input.GetKeyDown("up") || Input.GetKeyDown("space"))
               {
-                  if (_jumpsLeft > 0)
-                  {
-                      _jumpsLeft--;
-                      Jump();    
-                  }
+                 ActivateJump();
               }
           }
           
@@ -91,11 +89,14 @@ public class PlayerMovement : MonoBehaviour
               if (other.gameObject.CompareTag("Spike"))
               {
                   GameManager.Instance.PlayAgain();
+                  AudioManager.Instance.PlayAudioClip(deadSound);
+                  gameObject.GetComponent<SpriteRenderer>().enabled = false;
               }
               
               if (other.gameObject.CompareTag("Trampoline"))
               {
                   Jump();
+                  AudioManager.Instance.PlayAudioClip(trampolineSound);
               }
           }
       }
@@ -113,7 +114,6 @@ public class PlayerMovement : MonoBehaviour
           if (GameManager.Instance.state == GameManager.State.InGame)
           {
               _rb2d.AddForce(new Vector2(_rb2d.velocity.x, jumpForce));
-              _audioSource.PlayOneShot(jumpSound);
           }
       }
 
@@ -123,6 +123,7 @@ public class PlayerMovement : MonoBehaviour
           {
               _jumpsLeft--;
               Jump();
+              _audioSource.PlayOneShot(jumpSound);
           }
       }
 }
