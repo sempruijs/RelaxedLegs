@@ -109,4 +109,13 @@ public class PlayerMovement : MonoBehaviour
               _audioSource.PlayOneShot(jumpSound);
           }
       }
+
+      public void ActivateJump()
+      {
+          if (_jumpsLeft > 0)
+          {
+              _jumpsLeft--;
+              Jump();
+          }
+      }
 }
