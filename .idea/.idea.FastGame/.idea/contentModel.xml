@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Bullet.cs" t="Include" />
+          <e p="CameraFollow.cs" t="Include" />
+          <e p="ChangeStateOnCollision.cs" t="Include" />
+          <e p="Destroy" t="Include">
+            <e p="ChangeStateToWhenAllObjectsWithTagAreDestroyed.cs" t="Include" />
+            <e p="DestroyAfterxSeconds.cs" t="Include" />
+            <e p="DestroyWhenCollideWithTag.cs" t="Include" />
+          </e>
+          <e p="Managers" t="Include">
+            <e p="AudioManager.cs" t="Include" />
+            <e p="DisplayManager.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+          </e>
+          <e p="MoveObjectBetweenPoints.cs" t="Include" />
+          <e p="MoveToObject.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+          <e p="RandomSprite.cs" t="Include" />
+          <e p="Rotate.cs" t="Include" />
+          <e p="Spawn" t="Include">
+            <e p="SpawnBetweenTwoPoints.cs" t="Include" />
+            <e p="SpawnObjectInTimeFrame.cs" t="Include" />
+            <e p="SpawnObjectWithKey.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="FastGame.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_FastGame.-1456356691.00" t="ExcludeRecursive" />
+  </component>
+</project>
