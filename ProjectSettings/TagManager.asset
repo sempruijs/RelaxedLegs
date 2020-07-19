@@ -10,6 +10,7 @@ TagManager:
   - AudioManager
   - Coin
   - Spike
+  - Trampoline
   layers:
   - Default
   - TransparentFX

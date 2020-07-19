@@ -92,6 +92,11 @@ public class PlayerMovement : MonoBehaviour
               {
                   GameManager.Instance.PlayAgain();
               }
+              
+              if (other.gameObject.CompareTag("Trampoline"))
+              {
+                  Jump();
+              }
           }
       }
 
