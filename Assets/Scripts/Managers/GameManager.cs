@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Menu();
+        Application.targetFrameRate = 300;
     }
 
     void Update()
