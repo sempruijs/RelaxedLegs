@@ -4820,8 +4820,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!68 &1704850080
-EdgeCollider2D:
+--- !u!58 &1704850080
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4833,23 +4833,9 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -3.5749283, y: -1.4431988}
-  - {x: -4.660103, y: -1.4048902}
-  - {x: -4.708132, y: -4.771047}
-  - {x: 1.0591644, y: -4.6066976}
-  - {x: 1.0309929, y: -1.5273954}
-  - {x: -2.108584, y: -1.3204104}
-  - {x: -2.121478, y: -0.018070795}
-  - {x: 4.9487348, y: -0.2009844}
-  - {x: 4.9671297, y: 0.26164865}
-  - {x: 3.7778976, y: 1.5607868}
-  - {x: -2.0099328, y: 1.013288}
-  - {x: -1.4636061, y: 2.5124474}
-  - {x: -3.3830655, y: 3.1211383}
-  - {x: -3.5901325, y: -1.3413274}
+  m_Offset: {x: -1.597049, y: -0.5940245}
+  serializedVersion: 2
+  m_Radius: 4.1169777
 --- !u!212 &1704850081
 SpriteRenderer:
   m_ObjectHideFlags: 0
