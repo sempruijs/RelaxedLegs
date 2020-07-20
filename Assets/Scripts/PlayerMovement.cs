@@ -90,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
               {
                   GameManager.Instance.PlayAgain();
                   AudioManager.Instance.PlayAudioClip(deadSound);
-                  gameObject.GetComponent<SpriteRenderer>().enabled = false;
+                  gameObject.SetActive(false);
               }
               
               if (other.gameObject.CompareTag("Trampoline"))
