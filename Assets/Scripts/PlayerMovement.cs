@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
       [Header("Components")]
       private Rigidbody2D _rb2d;
       private AudioSource _audioSource;
+      private Animator _animator;
       
       //Sound
       [Header("AudioClips")]
@@ -38,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
       {
           _rb2d = GetComponent<Rigidbody2D>();
           _audioSource = GetComponent<AudioSource>();
+          _animator = GetComponent<Animator>();
       }
   
       void Update()
@@ -77,6 +79,7 @@ public class PlayerMovement : MonoBehaviour
           }
       }
 
+      //Collision
       private void OnCollisionEnter2D(Collision2D other)
       {
           if (!topDown)
@@ -84,6 +87,7 @@ public class PlayerMovement : MonoBehaviour
               if (other.gameObject.CompareTag("Ground"))
               {
                   _jumpsLeft = amountOfJumps;
+                  SetAnimation("Land");
               }
 
               if (other.gameObject.CompareTag("Spike"))
@@ -98,6 +102,14 @@ public class PlayerMovement : MonoBehaviour
                   Jump();
                   AudioManager.Instance.PlayAudioClip(trampolineSound);
               }
+          }
+      }
+
+      private void OnCollisionExit2D(Collision2D other)
+      {
+          if (other.gameObject.CompareTag("Ground"))
+          {
+              SetAnimation("Jump");
           }
       }
 
@@ -124,6 +136,22 @@ public class PlayerMovement : MonoBehaviour
               _jumpsLeft--;
               Jump();
               _audioSource.PlayOneShot(jumpSound);
+          }
+      }
+      
+      //Animation
+      public void SetAnimation(string animation)
+      {
+          switch (animation) 
+          {
+              case "Jump":
+                  _animator.SetBool("IsJumping", true);
+                  _animator.SetBool("IsLanding", false);
+                  break;
+              case "Land":
+                  _animator.SetBool("IsLanding", true);
+                  _animator.SetBool("IsJumping", false);
+                  break;
           }
       }
 }
