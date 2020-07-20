@@ -105,13 +105,13 @@ public class PlayerMovement : MonoBehaviour
           }
       }
 
-      private void OnCollisionExit2D(Collision2D other)
-      {
-          if (other.gameObject.CompareTag("Ground"))
-          {
-              SetAnimation("Jump");
-          }
-      }
+      // private void OnCollisionExit2D(Collision2D other)
+      // {
+      //     if (other.gameObject.CompareTag("Ground"))
+      //     {
+      //         SetAnimation("Jump");
+      //     }
+      // }
 
       private void FixedUpdate()
       {
@@ -136,6 +136,7 @@ public class PlayerMovement : MonoBehaviour
               _jumpsLeft--;
               Jump();
               _audioSource.PlayOneShot(jumpSound);
+              SetAnimation("Jump");
           }
       }
       
