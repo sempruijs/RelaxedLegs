@@ -135,7 +135,7 @@ public class PlayerMovement : MonoBehaviour
           {
               _jumpsLeft--;
               Jump();
-              _audioSource.PlayOneShot(jumpSound);
+              // _audioSource.PlayOneShot(jumpSound);
               SetAnimation("Jump");
           }
       }
