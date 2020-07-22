@@ -20,6 +20,7 @@
             <e p="GameManager.cs" t="Include" />
           </e>
           <e p="MoveChunk.cs" t="Include" />
+          <e p="MoveEnviorment.cs" t="Include" />
           <e p="MoveObjectBetweenPoints.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="RandomSprite.cs" t="Include" />
@@ -30,6 +31,7 @@
             <e p="SpawnObjectInTimeFrame.cs" t="Include" />
             <e p="SpawnObjectWithKey.cs" t="Include" />
           </e>
+          <e p="SpawnGrass.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

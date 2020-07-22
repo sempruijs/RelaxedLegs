@@ -1,20 +1,12 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChunkMover : MonoBehaviour
+public class MoveEnviorment : MonoBehaviour
 {
     public float speed;
     public Vector3 point;
-
-    private SpawnChunk _spawnChunk;
-
-    private void Start()
-    {
-        _spawnChunk = GameObject.FindWithTag("ChunkSpawner").GetComponent<SpawnChunk>();
-    }
-
+    
     void Update()
     {
         if (GameManager.Instance.state == GameManager.State.InGame)
@@ -24,7 +16,6 @@ public class ChunkMover : MonoBehaviour
             
             if (transform.position.x <= point.x)
             {
-                _spawnChunk.SpawnRandomChunk();
                 Destroy(gameObject);
             }
         }
