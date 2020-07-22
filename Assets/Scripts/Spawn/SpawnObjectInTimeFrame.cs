@@ -19,7 +19,7 @@ public class SpawnObjectInTimeFrame : MonoBehaviour
             if (GameManager.Instance.state == GameManager.State.InGame)
             {
                 Instantiate(prefab, transform.position, Quaternion.identity);
-                AudioManager.Instance.PlayAudioClip(playWithSoundClip);
+                // AudioManager.Instance.PlayAudioClip(playWithSoundClip);
             }
             yield return new WaitForSeconds(Random.Range(minimumTime, maximumTime));
         }
