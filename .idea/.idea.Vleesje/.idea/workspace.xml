@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Cloud.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Cloud.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Clouds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Clouds/Cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Clouds/Cloud.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Mountain.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Mountain/Mountain0.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Mountain/Mountain0.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Mountains.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Mountains/Mountain0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Mountains/Mountain0.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawn/SpawnObjectInTimeFrame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawn/SpawnObjectInTimeFrame.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595369265653</updated>
       <workItem from="1595369284754" duration="304000" />
-      <workItem from="1595418531383" duration="4581000" />
+      <workItem from="1595418531383" duration="4999000" />
     </task>
     <servers />
   </component>
