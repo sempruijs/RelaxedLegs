@@ -8,6 +8,7 @@
           <e p="Bullet.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="ChangeStateOnCollision.cs" t="Include" />
+          <e p="ChunkMover.cs" t="Include" />
           <e p="Destroy" t="Include">
             <e p="ChangeStateToWhenAllObjectsWithTagAreDestroyed.cs" t="Include" />
             <e p="DestroyAfterxSeconds.cs" t="Include" />
@@ -20,7 +21,6 @@
           </e>
           <e p="MoveChunk.cs" t="Include" />
           <e p="MoveObjectBetweenPoints.cs" t="Include" />
-          <e p="MoveToObject.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="RandomSprite.cs" t="Include" />
           <e p="Rotate.cs" t="Include" />

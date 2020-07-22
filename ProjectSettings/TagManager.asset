@@ -12,6 +12,7 @@ TagManager:
   - Spike
   - Trampoline
   - Chunk
+  - ChunkSpawner
   layers:
   - Default
   - TransparentFX

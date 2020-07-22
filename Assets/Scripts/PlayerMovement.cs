@@ -64,6 +64,16 @@ public class PlayerMovement : MonoBehaviour
               {
                  ActivateJump();
               }
+
+              if (Input.GetKeyDown("down"))
+              {
+                  GoDown(true);
+              }
+
+              if (Input.GetKeyUp("down"))
+              {
+                  GoDown(false);
+              }
           }
           
           //animation
@@ -113,13 +123,13 @@ public class PlayerMovement : MonoBehaviour
       //     }
       // }
 
-      private void FixedUpdate()
-      {
-          if (GameManager.Instance.state == GameManager.State.InGame)
-          {
-              _rb2d.AddForce (_movement * moveSpeed);
-          }
-      }
+      // private void FixedUpdate()
+      // {
+      //     if (GameManager.Instance.state == GameManager.State.InGame)
+      //     {
+      //         _rb2d.AddForce (_movement * moveSpeed);
+      //     }
+      // }
 
       private void Jump()
       {
@@ -154,5 +164,10 @@ public class PlayerMovement : MonoBehaviour
                   _animator.SetBool("IsJumping", false);
                   break;
           }
+      }
+      
+      public void GoDown(bool x)
+      {
+        _animator.SetBool("Down", x);
       }
 }
