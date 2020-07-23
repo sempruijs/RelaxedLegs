@@ -95,4 +95,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  point: {x: -20, y: 6.3, z: -3}
+  point: {x: -20, y: 6.3, z: 2}
