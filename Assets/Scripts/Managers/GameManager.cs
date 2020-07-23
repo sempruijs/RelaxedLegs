@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public State state;
     public GameObject player;
+    public GameObject startEmptyChunks;
     private static GameManager _instance;
          public static GameManager Instance {
          get {
@@ -93,6 +94,7 @@ public class GameManager : MonoBehaviour
         RemoveAllGameObjectsWithTag("Chunk");
         player.transform.position = new Vector3(0f, -1.5f, 0f);
         player.SetActive(true);
+        Instantiate(startEmptyChunks, new Vector3(0, 0, 0), Quaternion.identity);
         InGame();
     }
 }
