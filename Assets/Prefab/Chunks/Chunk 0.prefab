@@ -654,7 +654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
-  point: {x: -30, y: 0, z: 0}
+  point: {x: -41.5, y: 0, z: 0}
 --- !u!1 &7537932828285660526
 GameObject:
   m_ObjectHideFlags: 0
