@@ -614,7 +614,7 @@ GameObject:
   - component: {fileID: 7537932828106050988}
   - component: {fileID: 7537932828106050989}
   m_Layer: 0
-  m_Name: Chunk 0
+  m_Name: Chunk 1
   m_TagString: Chunk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

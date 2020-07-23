@@ -9,10 +9,12 @@ public class ChunkMover : MonoBehaviour
     public Vector3 point;
 
     private SpawnChunk _spawnChunk;
+    private GameObject _player;
 
     private void Start()
     {
         _spawnChunk = GameObject.FindWithTag("ChunkSpawner").GetComponent<SpawnChunk>();
+        _player = GameObject.FindWithTag("Player");
     }
 
     void Update()
@@ -26,6 +28,15 @@ public class ChunkMover : MonoBehaviour
             {
                 _spawnChunk.SpawnRandomChunk();
                 Destroy(gameObject);
+            }
+
+            if (_player.transform.position.x <= -0.5f)
+            {
+                speed = 4f;
+            }
+            else
+            {
+                speed = 6f;
             }
         }
     }
