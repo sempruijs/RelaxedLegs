@@ -6,6 +6,9 @@ public class MoveEnviorment : MonoBehaviour
 {
     public float speed;
     public Vector3 point;
+    private GameObject _player;
+    
+    private void Start() => _player = GameObject.FindWithTag("Player");
     
     void Update()
     {
@@ -17,6 +20,15 @@ public class MoveEnviorment : MonoBehaviour
             if (transform.position.x <= point.x)
             {
                 Destroy(gameObject);
+            }
+            
+            if (_player.transform.position.x <= -0.5f)
+            {
+                speed = 4f;
+            }
+            else
+            {
+                speed = 6f;
             }
         }
     }

@@ -87,6 +87,11 @@ public class PlayerMovement : MonoBehaviour
                   transform.rotation = Quaternion.Euler(0, 0, 0);
               }
           }
+
+          if (gameObject.transform.position.x <= -0.5f)
+          {
+              recover();
+          }
       }
 
       //Collision
@@ -148,6 +153,12 @@ public class PlayerMovement : MonoBehaviour
               // _audioSource.PlayOneShot(jumpSound);
               SetAnimation("Jump");
           }
+      }
+
+      public void recover()
+      {
+          _rb2d.AddForce(new Vector2(500.0f, 0f));
+          Debug.Log("Work!");
       }
       
       //Animation
