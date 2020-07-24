@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DisplayManager : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class DisplayManager : MonoBehaviour
     public GameObject playAgain;
     public GameObject credit;
     public GameObject settings;
+
+    public Text timeText;
     
     void Update()
     {
@@ -17,5 +20,7 @@ public class DisplayManager : MonoBehaviour
         playAgain.SetActive(GameManager.Instance.state == GameManager.State.PlayAgain);
         credit.SetActive(GameManager.Instance.state == GameManager.State.Credit);
         settings.SetActive(GameManager.Instance.state == GameManager.State.Settings);
+
+        timeText.text = GameManager.Instance.time.ToString("F0");
     }
 }

@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public State state;
     public GameObject player;
     public GameObject startEmptyChunks;
+    public float time;
     private static GameManager _instance;
          public static GameManager Instance {
          get {
@@ -46,6 +47,11 @@ public class GameManager : MonoBehaviour
         {
             ReloadCurrentScene();
         }
+
+        if (state == State.InGame)
+        {
+            time += Time.deltaTime;    
+        }
     }
 
     public void Menu()
@@ -56,6 +62,7 @@ public class GameManager : MonoBehaviour
     public void InGame()
     {
         state = State.InGame;
+        time = 0f;
     }
 
     public void Credit()
