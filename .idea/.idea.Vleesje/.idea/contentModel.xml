@@ -8,6 +8,9 @@
           <e p="Bullet.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="ChangeStateOnCollision.cs" t="Include" />
+          <e p="Chunk" t="Include">
+            <e p="PlayAnimationCollideWithPlayer.cs" t="Include" />
+          </e>
           <e p="ChunkMover.cs" t="Include" />
           <e p="Destroy" t="Include">
             <e p="ChangeStateToWhenAllObjectsWithTagAreDestroyed.cs" t="Include" />

@@ -3570,6 +3570,11 @@ MonoBehaviour:
   - {fileID: 7537932828106050994, guid: c1d53247e210e4b6691a7c8c8836cbfe, type: 3}
   - {fileID: 7537932828106050994, guid: 746d1e89b83704eda9dc2fac9d7bf182, type: 3}
   - {fileID: 7537932828106050994, guid: 7dbc55436d99848ab95979a137c1fe8f, type: 3}
+  - {fileID: 7537932828106050994, guid: 6a7cf2d048e244cd9979ab99c12130b1, type: 3}
+  - {fileID: 7537932828106050994, guid: 6a7cf2d048e244cd9979ab99c12130b1, type: 3}
+  - {fileID: 7537932828106050994, guid: 6a7cf2d048e244cd9979ab99c12130b1, type: 3}
+  - {fileID: 7537932828106050994, guid: 6a7cf2d048e244cd9979ab99c12130b1, type: 3}
+  - {fileID: 7537932828106050994, guid: 6a7cf2d048e244cd9979ab99c12130b1, type: 3}
   emptyChunk: {fileID: 0}
   timeForNextChunk: 3.4
 --- !u!4 &611264689
@@ -9647,7 +9652,7 @@ Rigidbody2D:
   m_GravityScale: 6
   m_Material: {fileID: 6200000, guid: 584a04a7a6dfd45529b32a49bf727553, type: 2}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!58 &1704850080
