@@ -62,6 +62,7 @@ public class GameManager : MonoBehaviour
     public void InGame()
     {
         state = State.InGame;
+        AudioManager.Instance.InGameMusic();
         time = 0f;
     }
 
