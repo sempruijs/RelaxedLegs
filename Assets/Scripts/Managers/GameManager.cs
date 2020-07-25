@@ -63,7 +63,6 @@ public class GameManager : MonoBehaviour
     public void InGame()
     {
         state = State.InGame;
-        AudioManager.Instance.InGameMusic();
         player.GetComponent<Rigidbody2D>().gravityScale = 6;
     }
 
@@ -112,6 +111,7 @@ public class GameManager : MonoBehaviour
         player.SetActive(true);
         Instantiate(startEmptyChunks, new Vector3(0, 0, 0), Quaternion.identity);
         time = 0f;
+        AudioManager.Instance.InGameMusic();
         InGame();
     }
 }
