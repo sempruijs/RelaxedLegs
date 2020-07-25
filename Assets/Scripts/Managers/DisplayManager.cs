@@ -12,6 +12,7 @@ public class DisplayManager : MonoBehaviour
     public GameObject settings;
 
     public Text timeText;
+    public Text timeTextPlayAgain;
     
     void Update()
     {
@@ -22,5 +23,6 @@ public class DisplayManager : MonoBehaviour
         settings.SetActive(GameManager.Instance.state == GameManager.State.Settings);
 
         timeText.text = GameManager.Instance.time.ToString("F0");
+        timeTextPlayAgain.text = GameManager.Instance.time.ToString("F0");
     }
 }
