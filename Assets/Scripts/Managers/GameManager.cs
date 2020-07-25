@@ -64,7 +64,7 @@ public class GameManager : MonoBehaviour
     {
         state = State.InGame;
         AudioManager.Instance.InGameMusic();
-        time = 0f;
+        player.GetComponent<Rigidbody2D>().gravityScale = 6;
     }
 
     public void Credit()
@@ -85,6 +85,7 @@ public class GameManager : MonoBehaviour
     public void Pause()
     {
         state = State.Pause;
+        player.GetComponent<Rigidbody2D>().gravityScale = 0;
     }
     
     public void ReloadCurrentScene() 
@@ -110,6 +111,7 @@ public class GameManager : MonoBehaviour
         player.transform.position = new Vector3(0f, -1.5f, 0f);
         player.SetActive(true);
         Instantiate(startEmptyChunks, new Vector3(0, 0, 0), Quaternion.identity);
+        time = 0f;
         InGame();
     }
 }
