@@ -32,7 +32,8 @@ public class GameManager : MonoBehaviour
         Menu,
         PlayAgain,
         Credit,
-        Settings
+        Settings,
+        Pause
     };
 
     void Start()
@@ -80,6 +81,11 @@ public class GameManager : MonoBehaviour
     {
         state = State.PlayAgain;
     }
+
+    public void Pause()
+    {
+        state = State.Pause;
+    }
     
     public void ReloadCurrentScene() 
     {
@@ -100,6 +106,7 @@ public class GameManager : MonoBehaviour
     public void Reset()
     {
         RemoveAllGameObjectsWithTag("Chunk");
+        RemoveAllGameObjectsWithTag("Spike");
         player.transform.position = new Vector3(0f, -1.5f, 0f);
         player.SetActive(true);
         Instantiate(startEmptyChunks, new Vector3(0, 0, 0), Quaternion.identity);

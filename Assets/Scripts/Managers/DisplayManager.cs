@@ -10,6 +10,7 @@ public class DisplayManager : MonoBehaviour
     public GameObject playAgain;
     public GameObject credit;
     public GameObject settings;
+    public GameObject pause;
 
     public Text timeText;
     public Text timeTextPlayAgain;
@@ -21,6 +22,7 @@ public class DisplayManager : MonoBehaviour
         playAgain.SetActive(GameManager.Instance.state == GameManager.State.PlayAgain);
         credit.SetActive(GameManager.Instance.state == GameManager.State.Credit);
         settings.SetActive(GameManager.Instance.state == GameManager.State.Settings);
+        pause.SetActive(GameManager.Instance.state == GameManager.State.Pause);
 
         timeText.text = GameManager.Instance.time.ToString("F0");
         timeTextPlayAgain.text = GameManager.Instance.time.ToString("F0");

@@ -11,11 +11,9 @@ GameObject:
   - component: {fileID: 2556652930588107633}
   - component: {fileID: 2556652930588107632}
   - component: {fileID: 2556652930588107599}
-  - component: {fileID: 8688473542350098536}
-  - component: {fileID: 8853534599371301585}
-  - component: {fileID: 4542099127271555156}
+  - component: {fileID: 1407225166145519374}
   m_Layer: 0
-  m_Name: Spike
+  m_Name: Spike 1
   m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,7 +103,7 @@ EdgeCollider2D:
   - {x: 0.010958648, y: 4.9496026}
   - {x: 4.9568, y: -5.176267}
   - {x: -4.927876, y: -5.0296135}
---- !u!114 &8688473542350098536
+--- !u!114 &1407225166145519374
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,39 +115,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcca9cd6c8d214cbb9cf7da9a591746d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 3
-  transformFromTag: ShootPoint
---- !u!50 &8853534599371301585
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2556652930588107598}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &4542099127271555156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2556652930588107598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 588b9b1340fbd45f89a2ed6e42856ced, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  seconds: 3
+  bulletSpeed: 5
+  transformFromTag: 
