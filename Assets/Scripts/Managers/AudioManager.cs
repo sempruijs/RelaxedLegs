@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour
 { 
     private AudioSource _audioSource;
     // public AudioClip inGameMusic;
-    // public AudioClip menuMusic;
+    public AudioClip menuMusic;
     
     private static AudioManager _instance;
     public static AudioManager Instance {
@@ -31,12 +31,17 @@ public class AudioManager : MonoBehaviour
 
     public void InGameMusic()
     {
-        _audioSource.Stop();
+        Stop();
         _audioSource.Play();
     }
 
     public void PlayAudioClip(AudioClip audioClip)
     {
         _audioSource.PlayOneShot(audioClip);
+    }
+
+    public void Stop()
+    {
+        _audioSource.Stop();
     }
 }
