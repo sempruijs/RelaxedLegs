@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/UI/CoinIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/UI/CoinIcon.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 0.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +60,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Chunk/PlayAnimationCollideWithPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Blur.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       </list>
     </option>
   </component>
