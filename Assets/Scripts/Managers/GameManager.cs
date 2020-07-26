@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject player;
     public GameObject startEmptyChunks;
     public float time;
+    public int coinsCollected;
     private static GameManager _instance;
          public static GameManager Instance {
          get {

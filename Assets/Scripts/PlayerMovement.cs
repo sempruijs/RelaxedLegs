@@ -136,6 +136,15 @@ public class PlayerMovement : MonoBehaviour
       //     }
       // }
 
+      private void OnTriggerEnter2D(Collider2D other)
+      {
+          if (other.gameObject.CompareTag("Coin"))
+          {
+              GameManager.Instance.coinsCollected++;
+              other.GetComponent<Animator>().SetBool("OnTrigger", true);
+          }
+      }
+
       private void Jump()
       {
           if (GameManager.Instance.state == GameManager.State.InGame)
