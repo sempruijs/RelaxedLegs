@@ -15,6 +15,7 @@ public class DisplayManager : MonoBehaviour
     public Text timeText;
     public Text timeTextPlayAgain;
     public Text coinsPickedUpText;
+    public Text coinsPickedUpTextPlayAgain;
     
     void Update()
     {
@@ -25,8 +26,17 @@ public class DisplayManager : MonoBehaviour
         settings.SetActive(GameManager.Instance.state == GameManager.State.Settings);
         pause.SetActive(GameManager.Instance.state == GameManager.State.Pause);
 
-        timeText.text = GameManager.Instance.time.ToString("F0");
-        timeTextPlayAgain.text = GameManager.Instance.time.ToString("F0");
-        coinsPickedUpText.text = GameManager.Instance.coinsCollected.ToString("F0");
+        if (GameManager.Instance.state == GameManager.State.InGame)
+        {
+            timeText.text = GameManager.Instance.time.ToString("F0");
+            coinsPickedUpText.text = GameManager.Instance.coinsCollected.ToString("F0");
+        } else if (GameManager.Instance.state == GameManager.State.PlayAgain)
+        {
+            timeTextPlayAgain.text = GameManager.Instance.time.ToString("F0");
+            coinsPickedUpTextPlayAgain.text = GameManager.Instance.coinsCollected.ToString("F0");
+        }
+        
+       
+        
     }
 }
