@@ -114,6 +114,7 @@ public class GameManager : MonoBehaviour
         player.SetActive(true);
         Instantiate(startEmptyChunks, new Vector3(0, 0, 0), Quaternion.identity);
         time = 0f;
+        coinsCollected = 0;
         // AudioManager.Instance.InGameMusic();
         InGame();
     }

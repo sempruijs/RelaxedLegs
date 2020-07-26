@@ -14,6 +14,7 @@ public class DisplayManager : MonoBehaviour
 
     public Text timeText;
     public Text timeTextPlayAgain;
+    public Text coinsPickedUpText;
     
     void Update()
     {
@@ -26,5 +27,6 @@ public class DisplayManager : MonoBehaviour
 
         timeText.text = GameManager.Instance.time.ToString("F0");
         timeTextPlayAgain.text = GameManager.Instance.time.ToString("F0");
+        coinsPickedUpText.text = GameManager.Instance.coinsCollected.ToString("F0");
     }
 }
