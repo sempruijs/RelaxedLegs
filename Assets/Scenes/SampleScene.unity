@@ -12988,6 +12988,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuMusic: {fileID: 8300000, guid: 9da8106837ffb4ec4a8f7eff464798e1, type: 3}
+  pickUpCoinSounds:
+  - {fileID: 8300000, guid: cf85d9fcd6b2a456ca1c1421b329e4eb, type: 3}
+  - {fileID: 8300000, guid: 311ebeaf46577484a92d052fd1e54245, type: 3}
+  - {fileID: 8300000, guid: 1e08d1869733e49d9ac37805a6d820ac, type: 3}
+  - {fileID: 8300000, guid: 2fdd76893f20f46a28c8fd61b3765d55, type: 3}
 --- !u!4 &1327801948
 Transform:
   m_ObjectHideFlags: 0

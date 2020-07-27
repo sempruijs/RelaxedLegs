@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour
     private AudioSource _audioSource;
     // public AudioClip inGameMusic;
     public AudioClip menuMusic;
+    public AudioClip[] pickUpCoinSounds;
     
     private static AudioManager _instance;
     public static AudioManager Instance {
@@ -43,5 +44,10 @@ public class AudioManager : MonoBehaviour
     public void Stop()
     {
         _audioSource.Stop();
+    }
+
+    public void PickUpCoin()
+    {
+        PlayAudioClip(pickUpCoinSounds[Random.Range(0, pickUpCoinSounds.Length)]);
     }
 }

@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/SFX/PickUpCoin.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SFX/PickUpCoin.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/PickUpCoin1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/PickUpCoin1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/PickUpCoin2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/PickUpCoin2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/PickUpCoin3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/PickUpCoin3.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/AudioManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +66,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveEnviorment.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chunk/PlayAnimationCollideWithPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Blur.shader" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       </list>
     </option>
@@ -113,7 +117,7 @@
       <updated>1595369265653</updated>
       <workItem from="1595369284754" duration="304000" />
       <workItem from="1595418531383" duration="4999000" />
-      <workItem from="1595843206408" duration="448000" />
+      <workItem from="1595843206408" duration="1123000" />
     </task>
     <servers />
   </component>

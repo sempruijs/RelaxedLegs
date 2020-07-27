@@ -144,7 +144,7 @@ public class PlayerMovement : MonoBehaviour
               GameManager.Instance.coinsCollected++;
               other.GetComponent<Animator>().SetBool("OnTrigger", true);
               other.gameObject.tag = "Untagged";
-              AudioManager.Instance.PlayAudioClip(pickUpCoin);
+              AudioManager.Instance.PickUpCoin();
           }
       }
 
