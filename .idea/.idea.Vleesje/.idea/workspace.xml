@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/SFX/PickCoin.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SFX/PickCoin.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/PickUpCoin.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/PickUpCoin.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
@@ -113,7 +113,7 @@
       <updated>1595369265653</updated>
       <workItem from="1595369284754" duration="304000" />
       <workItem from="1595418531383" duration="4999000" />
-      <workItem from="1595843206408" duration="146000" />
+      <workItem from="1595843206408" duration="448000" />
     </task>
     <servers />
   </component>
