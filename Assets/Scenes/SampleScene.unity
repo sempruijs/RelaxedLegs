@@ -1723,8 +1723,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00061035156, y: 0}
-  m_SizeDelta: {x: -0.0037841797, y: -1}
+  m_AnchoredPosition: {x: 0.00061035156, y: -0.25}
+  m_SizeDelta: {x: -0.0037841797, y: -0.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &248305105
 MonoBehaviour:
@@ -15378,6 +15378,7 @@ MonoBehaviour:
   jumpSound: {fileID: 8300000, guid: c5fb5611c1338468389d3d34b99c75d7, type: 3}
   trampolineSound: {fileID: 8300000, guid: 7a1da4abc57254fae9da0e03c8b72cd5, type: 3}
   deadSound: {fileID: 8300000, guid: 8cb2a3ec8455846169ad3a04259dbbee, type: 3}
+  pickUpCoin: {fileID: 8300000, guid: cf85d9fcd6b2a456ca1c1421b329e4eb, type: 3}
 --- !u!82 &1704850084
 AudioSource:
   m_ObjectHideFlags: 0

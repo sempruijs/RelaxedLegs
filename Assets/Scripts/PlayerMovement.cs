@@ -34,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
       public AudioClip jumpSound;
       public AudioClip trampolineSound;
       public AudioClip deadSound;
+      public AudioClip pickUpCoin;
 
       void Start()
       {
@@ -143,6 +144,7 @@ public class PlayerMovement : MonoBehaviour
               GameManager.Instance.coinsCollected++;
               other.GetComponent<Animator>().SetBool("OnTrigger", true);
               other.gameObject.tag = "Untagged";
+              AudioManager.Instance.PlayAudioClip(pickUpCoin);
           }
       }
 
