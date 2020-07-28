@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Advertisements;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,6 +12,13 @@ public class GameManager : MonoBehaviour
     public GameObject startEmptyChunks;
     public float time;
     public int coinsCollected;
+    
+    //UnityAds
+    private string _appStoreId = "3736862";
+    private string _playStoreId = "3736863";
+    private bool useAds = true;
+    
+    
     private static GameManager _instance;
          public static GameManager Instance {
          get {
@@ -67,6 +75,7 @@ public class GameManager : MonoBehaviour
         state = State.InGame;
         // AudioManager.Instance.Stop();
         player.GetComponent<Rigidbody2D>().gravityScale = 6;
+        Advertisement.Initialize(_appStoreId, useAds);
     }
 
     public void Credit()
@@ -117,5 +126,10 @@ public class GameManager : MonoBehaviour
         coinsCollected = 0;
         // AudioManager.Instance.InGameMusic();
         InGame();
+    }
+
+    public void ShowAd()
+    {
+        Advertisement.Show();
     }
 }

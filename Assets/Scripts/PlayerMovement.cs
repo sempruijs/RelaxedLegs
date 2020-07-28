@@ -111,6 +111,7 @@ public class PlayerMovement : MonoBehaviour
                   GameManager.Instance.PlayAgain();
                   AudioManager.Instance.PlayAudioClip(deadSound);
                   gameObject.SetActive(false);
+                  GameManager.Instance.ShowAd();
               }
               
               if (other.gameObject.CompareTag("Trampoline"))
