@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     private string _appStoreId = "3736862";
     private string _playStoreId = "3736863";
     private bool useAds = true;
+    private int _showAdEveryVideo = 0;
     
     
     private static GameManager _instance;
@@ -130,6 +131,15 @@ public class GameManager : MonoBehaviour
 
     public void ShowAd()
     {
-        Advertisement.Show();
+        if (_showAdEveryVideo == 2)
+        {
+            Advertisement.Show();
+            _showAdEveryVideo = 1;
+        }
+        else
+        {
+            _showAdEveryVideo++;
+        }
+       
     }
 }
