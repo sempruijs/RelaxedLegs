@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
     public void Menu()
     {
         state = State.Menu;
-        // AudioManager.Instance.PlayAudioClip(AudioManager.Instance.menuMusic);
+        AudioManager.Instance.MenuMusic();
     }
 
     public void InGame()
@@ -76,6 +76,7 @@ public class GameManager : MonoBehaviour
         state = State.InGame;
         // AudioManager.Instance.Stop();
         player.GetComponent<Rigidbody2D>().gravityScale = 6;
+        AudioManager.Instance.InGameMusic();
         Advertisement.Initialize(_appStoreId, useAds);
     }
 

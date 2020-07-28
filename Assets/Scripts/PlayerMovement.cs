@@ -109,6 +109,7 @@ public class PlayerMovement : MonoBehaviour
               if (other.gameObject.CompareTag("Spike"))
               {
                   GameManager.Instance.PlayAgain();
+                  AudioManager.Instance.Stop();
                   AudioManager.Instance.PlayAudioClip(deadSound);
                   gameObject.SetActive(false);
                   GameManager.Instance.ShowAd();

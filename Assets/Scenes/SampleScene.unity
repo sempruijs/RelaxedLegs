@@ -13149,7 +13149,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9da8106837ffb4ec4a8f7eff464798e1, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -13246,7 +13246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cc22226801984413b41c22f30085ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuMusic: {fileID: 8300000, guid: 9da8106837ffb4ec4a8f7eff464798e1, type: 3}
+  menuMusic: {fileID: 8300000, guid: 96c1862bf6f554edb84ddee7e513a180, type: 3}
   pickUpCoinSounds:
   - {fileID: 8300000, guid: cf85d9fcd6b2a456ca1c1421b329e4eb, type: 3}
   - {fileID: 8300000, guid: 311ebeaf46577484a92d052fd1e54245, type: 3}
