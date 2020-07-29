@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     public State state;
     public GameObject player;
     public GameObject startEmptyChunks;
-    public float time;
     public int coinsCollected;
     
     //UnityAds
@@ -57,11 +56,6 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             ReloadCurrentScene();
-        }
-
-        if (state == State.InGame)
-        {
-            time += Time.deltaTime;    
         }
     }
 
@@ -124,7 +118,6 @@ public class GameManager : MonoBehaviour
         player.transform.position = new Vector3(0f, -1.5f, 0f);
         player.SetActive(true);
         Instantiate(startEmptyChunks, new Vector3(0, 0, 0), Quaternion.identity);
-        time = 0f;
         coinsCollected = 0;
         // AudioManager.Instance.InGameMusic();
         InGame();

@@ -12,8 +12,6 @@ public class DisplayManager : MonoBehaviour
     public GameObject settings;
     public GameObject pause;
 
-    public Text timeText;
-    public Text timeTextPlayAgain;
     public Text coinsPickedUpText;
     public Text coinsPickedUpTextPlayAgain;
     
@@ -28,11 +26,9 @@ public class DisplayManager : MonoBehaviour
 
         if (GameManager.Instance.state == GameManager.State.InGame)
         {
-            timeText.text = GameManager.Instance.time.ToString("F0");
             coinsPickedUpText.text = GameManager.Instance.coinsCollected.ToString("F0");
         } else if (GameManager.Instance.state == GameManager.State.PlayAgain)
         {
-            timeTextPlayAgain.text = GameManager.Instance.time.ToString("F0");
             coinsPickedUpTextPlayAgain.text = GameManager.Instance.coinsCollected.ToString("F0");
         }
         
