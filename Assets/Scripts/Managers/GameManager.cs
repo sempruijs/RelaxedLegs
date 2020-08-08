@@ -63,6 +63,7 @@ public class GameManager : MonoBehaviour
     {
         state = State.Menu;
         AudioManager.Instance.MenuMusic();
+        DisplayManager.Instance.UpdateMenu();
     }
 
     public void InGame()
@@ -72,27 +73,32 @@ public class GameManager : MonoBehaviour
         player.GetComponent<Rigidbody2D>().gravityScale = 6;
         AudioManager.Instance.InGameMusic();
         // Advertisement.Initialize(_appStoreId, useAds);
+        DisplayManager.Instance.UpdateMenu();
     }
 
     public void Credit()
     {
         state = State.Credit;
+        DisplayManager.Instance.UpdateMenu();
     }
 
     public void Settings()
     {
         state = State.Settings;
+        DisplayManager.Instance.UpdateMenu();
     }
 
     public void PlayAgain()
     {
         state = State.PlayAgain;
+        DisplayManager.Instance.UpdateMenu();
     }
 
     public void Pause()
     {
         state = State.Pause;
         player.GetComponent<Rigidbody2D>().gravityScale = 0;
+        DisplayManager.Instance.UpdateMenu();
     }
     
     public void ReloadCurrentScene() 
