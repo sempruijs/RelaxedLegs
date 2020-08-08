@@ -12,11 +12,11 @@ public class GameManager : MonoBehaviour
     public GameObject startEmptyChunks;
     public int coinsCollected;
     
-    //UnityAds
-    private string _appStoreId = "3736862";
-    private string _playStoreId = "3736863";
-    private bool useAds = true;
-    private int _showAdEveryVideo = 0;
+    // //UnityAds
+    // private string _appStoreId = "3736862";
+    // private string _playStoreId = "3736863";
+    // private bool useAds = true;
+    // private int _showAdEveryVideo = 0;
     
     
     private static GameManager _instance;
@@ -123,17 +123,17 @@ public class GameManager : MonoBehaviour
         InGame();
     }
 
-    public void ShowAd()
-    {
-        if (_showAdEveryVideo == 2)
-        {
-            Advertisement.Show();
-            _showAdEveryVideo = 1;
-        }
-        else
-        {
-            _showAdEveryVideo++;
-        }
-       
-    }
+    // public void ShowAd()
+    // {
+    //     if (_showAdEveryVideo == 2)
+    //     {
+    //         Advertisement.Show();
+    //         _showAdEveryVideo = 1;
+    //     }
+    //     else
+    //     {
+    //         _showAdEveryVideo++;
+    //     }
+    //    
+    // }
 }
