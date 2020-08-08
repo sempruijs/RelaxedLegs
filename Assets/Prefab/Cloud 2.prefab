@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8591702647417980795}
   - component: {fileID: 1442917950415068981}
   m_Layer: 0
-  m_Name: Cloud
+  m_Name: Cloud 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523536776701588374}
-  m_LocalRotation: {x: -0, y: -0, z: -0.9999362, w: 0.011295878}
-  m_LocalPosition: {x: 10.8363, y: 5.7745, z: 0}
-  m_LocalScale: {x: 0.13118306, y: 0.16620013, z: 0.21199179}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.2039, y: 5.8247, z: 0}
+  m_LocalScale: {x: 0.2029926, y: 0.1563893, z: 0.21199179}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -178.706}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8591702647417980795
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -780,7 +780,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &101640280
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2579,7 +2579,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &378048331
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4665,7 +4665,11 @@ MonoBehaviour:
   minimumTime: 4
   maximumTime: 13
   playWithSoundClip: {fileID: 0}
-  prefab: {fileID: 1523536776701588374, guid: 4da93179d0a3d4b849e10b914754d1db, type: 3}
+  prefabs:
+  - {fileID: 1523536776701588374, guid: e408fcc0c63dd4cff9ddff4c3ac5e494, type: 3}
+  - {fileID: 1523536776701588374, guid: 545c9b962af2c41439f2908ab974633a, type: 3}
+  - {fileID: 1523536776701588374, guid: 0082b7d74ac4945909f2f94456269045, type: 3}
+  - {fileID: 1523536776701588374, guid: 4da93179d0a3d4b849e10b914754d1db, type: 3}
 --- !u!4 &781093733
 Transform:
   m_ObjectHideFlags: 0
@@ -5110,7 +5114,8 @@ MonoBehaviour:
   minimumTime: 8
   maximumTime: 15
   playWithSoundClip: {fileID: 0}
-  prefab: {fileID: 6756373394759555022, guid: 691c023182fc04d45aefe1fa87bf74b7, type: 3}
+  prefabs:
+  - {fileID: 6756373394759555022, guid: 691c023182fc04d45aefe1fa87bf74b7, type: 3}
 --- !u!4 &809861081
 Transform:
   m_ObjectHideFlags: 0
@@ -6413,7 +6418,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15400,6 +15404,7 @@ MonoBehaviour:
   amountOfJumps: 2
   turnAroundAnimation: 1
   topDown: 0
+  trampolineJumpAgainTime: 0
   jumpSound: {fileID: 8300000, guid: c5fb5611c1338468389d3d34b99c75d7, type: 3}
   trampolineSound: {fileID: 8300000, guid: 7a1da4abc57254fae9da0e03c8b72cd5, type: 3}
   deadSound: {fileID: 8300000, guid: 8cb2a3ec8455846169ad3a04259dbbee, type: 3}
@@ -16404,8 +16409,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bd4311fad511c45f2b592dd7bad34ce8, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 1dc6b56b061524fa998eede1c536905e, type: 3}
+  m_Color: {r: 0.2509804, g: 0.81960785, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

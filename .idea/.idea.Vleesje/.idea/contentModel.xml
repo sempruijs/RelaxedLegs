@@ -31,7 +31,7 @@
           <e p="Spawn" t="Include">
             <e p="SpawnBetweenTwoPoints.cs" t="Include" />
             <e p="SpawnChunk.cs" t="Include" />
-            <e p="SpawnObjectInTimeFrame.cs" t="Include" />
+            <e p="SpawnObjectsInTimeFrame.cs" t="Include" />
             <e p="SpawnObjectWithKey.cs" t="Include" />
           </e>
           <e p="SpawnGrass.cs" t="Include" />
