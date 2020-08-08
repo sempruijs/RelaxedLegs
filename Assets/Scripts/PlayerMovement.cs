@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
       private int _jumpsLeft;
       public bool turnAroundAnimation;
       public bool topDown;
+      public float trampolineJumpAgainTime;
 
       //Components
       [Header("Components")]
@@ -93,6 +94,11 @@ public class PlayerMovement : MonoBehaviour
           {
               recover();
           }
+
+          if (GameManager.Instance.state == GameManager.State.InGame)
+          {
+              trampolineJumpAgainTime -= Time.deltaTime;
+          }
       }
 
       //Collision
@@ -117,7 +123,11 @@ public class PlayerMovement : MonoBehaviour
               
               if (other.gameObject.CompareTag("Trampoline"))
               {
-                  Jump();
+                  if (trampolineJumpAgainTime <= 0f)
+                  {
+                      Jump();
+                      trampolineJumpAgainTime = 0.1f;
+                  }
                   AudioManager.Instance.PlayAudioClip(trampolineSound);
               }
           }
