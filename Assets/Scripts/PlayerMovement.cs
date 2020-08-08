@@ -204,4 +204,5 @@ public class PlayerMovement : MonoBehaviour
       {
         _animator.SetBool("Down", x);
       }
+      
 }
