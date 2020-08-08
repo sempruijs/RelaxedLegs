@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Advertisements;
+// using UnityEngine.Advertisements;
 
 public class GameManager : MonoBehaviour
 {
@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
         // AudioManager.Instance.Stop();
         player.GetComponent<Rigidbody2D>().gravityScale = 6;
         AudioManager.Instance.InGameMusic();
-        Advertisement.Initialize(_appStoreId, useAds);
+        // Advertisement.Initialize(_appStoreId, useAds);
     }
 
     public void Credit()
