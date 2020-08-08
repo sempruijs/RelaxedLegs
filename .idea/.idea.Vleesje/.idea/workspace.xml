@@ -19,8 +19,70 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Animatior gets paused when game is paused">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Remove 2 songs because they where not used">
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Balls.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Balls/Basketball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Balls/Basketball.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Balls/Football.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Balls/Football.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Balls/Rugby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Balls/Rugby.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Bullet.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Bullet/269.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Bullet/269.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Bullet/ExplodeBall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Bullet/ExplodeBall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Bullet/PushBall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Bullet/PushBall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Coin/Coin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Coin/Coin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Coin/Money.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Coin/Money.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Finish.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Finish/Finish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Finish/Finish.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Gun.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Gun/Gun0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Gun/Gun0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/Ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/Ball.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/Boss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/Boss.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/Leg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/Leg.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/ParalelPerson.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/ParalelPerson.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/Player 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/Player 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/Player 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/Player 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/Player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/Player.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/Worker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/Worker.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/enemy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/enemy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/kabouter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Players/kabouter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/SpikeSpawner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/SpikeSpawner.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Stone.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Stone/Stone1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Stone/Stone1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Trees.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Trees/Grass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Trees/Grass.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Trees/Tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Trees/Tree.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Work.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Work/CoffeeMashine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Work/CoffeeMashine.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Work/Computer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Work/Computer.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Text.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Text/WASDtoMove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Text/WASDtoMove.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +174,7 @@
       <workItem from="1595418531383" duration="4999000" />
       <workItem from="1595843206408" duration="1759000" />
       <workItem from="1595964720284" duration="4006000" />
-      <workItem from="1596797729673" duration="2997000" />
+      <workItem from="1596797729673" duration="3536000" />
     </task>
     <task id="LOCAL-00001" summary="Remove unity ads">
       <created>1596886126035</created>
@@ -191,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596891048662</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Remove 2 songs because they where not used">
+      <created>1596896248142</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1596896248142</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,12 +290,14 @@
     <MESSAGE value="There are now diffrent clouds" />
     <MESSAGE value="Add more mountains" />
     <MESSAGE value="Animatior gets paused when game is paused" />
-    <option name="LAST_COMMIT_MESSAGE" value="Animatior gets paused when game is paused" />
+    <MESSAGE value="Remove 2 songs because they where not used" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove 2 songs because they where not used" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1596891049897">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1596896249707">
+      <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1596896249707" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
