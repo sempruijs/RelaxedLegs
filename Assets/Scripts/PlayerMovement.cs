@@ -48,18 +48,6 @@ public class PlayerMovement : MonoBehaviour
       {
           // _moveHorizontal = Input.GetAxis("Horizontal");
 
-          if (topDown)
-          {
-              _moveVertical = Input.GetAxis("Vertical");   
-              
-              _movement = new Vector2 (_moveHorizontal, _moveVertical);
-          }
-          else
-          {
-              _movement = new Vector2 (_moveHorizontal, 0);
-          }
-          
-
           if (!topDown)
           {
               if (Input.GetKeyDown("space") || Input.GetKeyDown("w") || Input.GetKeyDown("up") || Input.GetKeyDown("space"))
@@ -88,6 +76,12 @@ public class PlayerMovement : MonoBehaviour
               {
                   transform.rotation = Quaternion.Euler(0, 0, 0);
               }
+              _animator.speed = 1f;
+          }
+
+          if (GameManager.Instance.state == GameManager.State.Pause)
+          {
+              _animator.speed = 0f;
           }
 
           if (gameObject.transform.position.x <= -0.5f)
