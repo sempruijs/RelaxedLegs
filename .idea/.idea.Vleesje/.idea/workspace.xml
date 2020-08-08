@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Fix compiler errors">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-    </list>
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Fix the extra high trampoline bug" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +109,7 @@
       <workItem from="1595418531383" duration="4999000" />
       <workItem from="1595843206408" duration="1759000" />
       <workItem from="1595964720284" duration="4006000" />
-      <workItem from="1596797729673" duration="1435000" />
+      <workItem from="1596797729673" duration="1645000" />
     </task>
     <task id="LOCAL-00001" summary="Remove unity ads">
       <created>1596886126035</created>
@@ -128,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596886547887</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix the extra high trampoline bug">
+      <created>1596887286003</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596887286003</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,13 +157,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Remove unity ads" />
     <MESSAGE value="Fix compiler errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix compiler errors" />
+    <MESSAGE value="Fix the extra high trampoline bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix the extra high trampoline bug" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1596886549730">
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1596887288032">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596886549730" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596887288032" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
