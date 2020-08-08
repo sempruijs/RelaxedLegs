@@ -19,196 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Remove useless sprites">
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=0-CRSV=0-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=0-CRSV=0-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=0-CRSV=0-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=0-CRSV=0-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=0-CRSV=0.5-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=0-CRSV=0.5-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=0-CRSV=0.5-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=0-CRSV=0.5-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=0-CRSV=1-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=0-CRSV=1-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=0-CRSV=1-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=0-CRSV=1-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=1-CRSV=0-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=1-CRSV=0-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=1-CRSV=0-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=1-CRSV=0-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=1-CRSV=0.5-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=1-CRSV=0.5-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=1-CRSV=0.5-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=1-CRSV=0.5-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=1-CRSV=1-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=1-CRSV=1-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=1-CRSV=1-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Black-CASL=1-CRSV=1-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=0-CRSV=0-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=0-CRSV=0-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=0-CRSV=0-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=0-CRSV=0.5-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=0-CRSV=0.5-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=0-CRSV=0.5-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=0-CRSV=0.5-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=0-CRSV=1-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=0-CRSV=1-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=0-CRSV=1-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=0-CRSV=1-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=1-CRSV=0-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=1-CRSV=0-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=1-CRSV=0-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=1-CRSV=0-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=1-CRSV=0.5-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=1-CRSV=0.5-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=1-CRSV=0.5-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=1-CRSV=0.5-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=1-CRSV=1-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=1-CRSV=1-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=1-CRSV=1-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=1-CRSV=1-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=0-CRSV=0-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=0-CRSV=0-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=0-CRSV=0-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=0-CRSV=0-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=0-CRSV=0.5-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=0-CRSV=0.5-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=0-CRSV=0.5-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=0-CRSV=0.5-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=0-CRSV=1-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=0-CRSV=1-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=0-CRSV=1-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=0-CRSV=1-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=1-CRSV=0-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=1-CRSV=0-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=1-CRSV=0-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=1-CRSV=0-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=1-CRSV=0.5-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=1-CRSV=0.5-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=1-CRSV=0.5-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=1-CRSV=0.5-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=1-CRSV=1-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=1-CRSV=1-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=1-CRSV=1-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=0-CRSV=0-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=0-CRSV=0-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=0-CRSV=0-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=0-CRSV=0-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=0-CRSV=0.5-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=0-CRSV=0.5-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=0-CRSV=0.5-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=0-CRSV=0.5-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=0-CRSV=1-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=0-CRSV=1-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=0-CRSV=1-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=0-CRSV=1-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=1-CRSV=0-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=1-CRSV=0-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=1-CRSV=0-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=1-CRSV=0-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=1-CRSV=0.5-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=1-CRSV=0.5-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=1-CRSV=0.5-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=1-CRSV=1-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=1-CRSV=1-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=1-CRSV=1-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=1-CRSV=1-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=0-CRSV=0-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=0-CRSV=0-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=0-CRSV=0-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=0-CRSV=0-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=0-CRSV=0.5-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=0-CRSV=0.5-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=0-CRSV=0.5-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=0-CRSV=0.5-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=0-CRSV=1-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=0-CRSV=1-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=0-CRSV=1-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=0-CRSV=1-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=1-CRSV=0-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=1-CRSV=0-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=1-CRSV=0-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=1-CRSV=0-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=1-CRSV=0.5-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=1-CRSV=0.5-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=1-CRSV=0.5-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=1-CRSV=0.5-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=1-CRSV=1-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=1-CRSV=1-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=1-CRSV=1-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Medium-CASL=1-CRSV=1-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=0-CRSV=0-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=0-CRSV=0-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=0-CRSV=0-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=0-CRSV=0-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=0-CRSV=0.5-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=0-CRSV=0.5-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=0-CRSV=0.5-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=0-CRSV=1-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=0-CRSV=1-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=0-CRSV=1-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=0-CRSV=1-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=1-CRSV=0-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=1-CRSV=0-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=1-CRSV=0-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=1-CRSV=0-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=1-CRSV=0.5-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=1-CRSV=0.5-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=1-CRSV=0.5-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=1-CRSV=0.5-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=1-CRSV=1-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=1-CRSV=1-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=1-CRSV=1-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=1-CRSV=1-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=0-CRSV=0-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=0-CRSV=0-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=0-CRSV=0-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=0-CRSV=0-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=0-CRSV=0.5-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=0-CRSV=0.5-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=0-CRSV=0.5-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=0-CRSV=0.5-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=0-CRSV=1-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=0-CRSV=1-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=0-CRSV=1-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=0-CRSV=1-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=1-CRSV=0-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=1-CRSV=0-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=1-CRSV=0-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=1-CRSV=0-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=1-CRSV=0.5-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=1-CRSV=0.5-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=1-CRSV=0.5-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=1-CRSV=1-MONO=0-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=1-CRSV=1-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=1-CRSV=1-MONO=1-slnt=0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Player/Leg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Player/Leg.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Player/Player 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Player/Player 2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-Black.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-Bold.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Regular-CASL=0-CRSV=0.5-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-BoldItalic.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=1-CRSV=1-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-ExtraLight.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-SemiBold-CASL=1-CRSV=0.5-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-ExtraLightItalic.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Bold-CASL=0-CRSV=0-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-Italic.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-Light.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-LightItalic.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-Regular.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-ExtraBold-CASL=1-CRSV=1-MONO=1-slnt=0.ttf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-SemiBold.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Recursive-Light-CASL=1-CRSV=0.5-MONO=0-slnt=0.ttf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TitilliumWeb-SemiBoldItalic.ttf.meta" beforeDir="false" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Add new font">
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -301,7 +112,7 @@
       <workItem from="1595418531383" duration="4999000" />
       <workItem from="1595843206408" duration="1759000" />
       <workItem from="1595964720284" duration="4006000" />
-      <workItem from="1596797729673" duration="4166000" />
+      <workItem from="1596797729673" duration="4513000" />
     </task>
     <task id="LOCAL-00001" summary="Remove unity ads">
       <created>1596886126035</created>
@@ -394,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596896575354</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add new font">
+      <created>1596897457448</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1596897457448</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,13 +244,14 @@
     <MESSAGE value="Animatior gets paused when game is paused" />
     <MESSAGE value="Remove 2 songs because they where not used" />
     <MESSAGE value="Remove useless sprites" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove useless sprites" />
+    <MESSAGE value="Add new font" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new font" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1596896577132">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1596897462110">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1596896577132" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1596897462110" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
