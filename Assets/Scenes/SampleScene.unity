@@ -5116,6 +5116,8 @@ MonoBehaviour:
   playWithSoundClip: {fileID: 0}
   prefabs:
   - {fileID: 6756373394759555022, guid: 691c023182fc04d45aefe1fa87bf74b7, type: 3}
+  - {fileID: 6756373394759555022, guid: 387d995bf2bb94cf9bf4e0fad6392d62, type: 3}
+  - {fileID: 6756373394759555022, guid: 691c023182fc04d45aefe1fa87bf74b7, type: 3}
 --- !u!4 &809861081
 Transform:
   m_ObjectHideFlags: 0
