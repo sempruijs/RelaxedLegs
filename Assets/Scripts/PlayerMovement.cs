@@ -199,10 +199,9 @@ public class PlayerMovement : MonoBehaviour
                   break;
           }
       }
-      
+
       public void GoDown(bool x)
       {
-        _animator.SetBool("Down", x);
+          _animator.SetBool("Down", x);
       }
-      
 }
