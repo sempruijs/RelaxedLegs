@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Add more mountains">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Animatior gets paused when game is paused">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +112,7 @@
       <workItem from="1595418531383" duration="4999000" />
       <workItem from="1595843206408" duration="1759000" />
       <workItem from="1595964720284" duration="4006000" />
-      <workItem from="1596797729673" duration="2654000" />
+      <workItem from="1596797729673" duration="2997000" />
     </task>
     <task id="LOCAL-00001" summary="Remove unity ads">
       <created>1596886126035</created>
@@ -184,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596890516478</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Animatior gets paused when game is paused">
+      <created>1596891048662</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596891048662</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,13 +220,14 @@
     <MESSAGE value="Change background color" />
     <MESSAGE value="There are now diffrent clouds" />
     <MESSAGE value="Add more mountains" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add more mountains" />
+    <MESSAGE value="Animatior gets paused when game is paused" />
+    <option name="LAST_COMMIT_MESSAGE" value="Animatior gets paused when game is paused" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1596890520448">
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1596891049897">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596890520448" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
