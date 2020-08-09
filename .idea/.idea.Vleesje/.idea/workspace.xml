@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="You can now tap on the player in the main menu and the game would begin">
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Fix the stuck in wall bug">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 8.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 8.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +118,7 @@
       <workItem from="1595964720284" duration="4006000" />
       <workItem from="1596797729673" duration="7565000" />
       <workItem from="1596970606846" duration="44000" />
-      <workItem from="1596970777287" duration="3532000" />
+      <workItem from="1596970777287" duration="4619000" />
     </task>
     <task id="LOCAL-00001" summary="Remove unity ads">
       <created>1596886126035</created>
@@ -324,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596980923586</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Fix the stuck in wall bug">
+      <created>1596990205353</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1596990205353</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +353,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Remove unity ads" />
     <MESSAGE value="Fix compiler errors" />
     <MESSAGE value="Fix the extra high trampoline bug" />
     <MESSAGE value="Change background color" />
@@ -372,13 +377,14 @@
     <MESSAGE value="Update chunk 13" />
     <MESSAGE value="Update chunk 13 and 14" />
     <MESSAGE value="You can now tap on the player in the main menu and the game would begin" />
-    <option name="LAST_COMMIT_MESSAGE" value="You can now tap on the player in the main menu and the game would begin" />
+    <MESSAGE value="Fix the stuck in wall bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix the stuck in wall bug" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1596980925372">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1596990207571">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1596980925372" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1596990207571" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
