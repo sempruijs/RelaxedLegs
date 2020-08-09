@@ -19,18 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Better performance in the DisplayManager.cs&#10;Made singleton out of DisplayManager.cs">
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Chunk/Mover.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Chunk/Mover.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Chunk/MoverChunk16.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Chunk/MoverChunk16.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 16.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 16.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/indexLayout.xml" afterDir="false" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Add chunk 17">
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/PlayAgainContainer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/PlayAgainContainer.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Spike 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Spike 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Spike.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Spike.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bullet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bullet.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +120,7 @@
       <workItem from="1595964720284" duration="4006000" />
       <workItem from="1596797729673" duration="7565000" />
       <workItem from="1596970606846" duration="44000" />
-      <workItem from="1596970777287" duration="716000" />
+      <workItem from="1596970777287" duration="1468000" />
     </task>
     <task id="LOCAL-00001" summary="Remove unity ads">
       <created>1596886126035</created>
@@ -282,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596907151281</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add chunk 17">
+      <created>1596972790822</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1596972790822</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,13 +324,14 @@
     <MESSAGE value="Implement new pause button sprite" />
     <MESSAGE value="Implement new sprites in the pause menu" />
     <MESSAGE value="Better performance in the DisplayManager.cs&#10;Made singleton out of DisplayManager.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Better performance in the DisplayManager.cs&#10;Made singleton out of DisplayManager.cs" />
+    <MESSAGE value="Add chunk 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add chunk 17" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1596907152887">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1596972793612">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1596907152887" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1596972793612" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
