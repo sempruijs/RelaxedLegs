@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Make trampoline smaller in chunk 14" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Make chunk 17">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 17.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 17.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 18.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 18.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +122,7 @@
       <workItem from="1595964720284" duration="4006000" />
       <workItem from="1596797729673" duration="7565000" />
       <workItem from="1596970606846" duration="44000" />
-      <workItem from="1596970777287" duration="6508000" />
+      <workItem from="1596970777287" duration="7147000" />
     </task>
     <task id="LOCAL-00001" summary="Remove unity ads">
       <created>1596886126035</created>
@@ -356,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597000201780</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Make chunk 17">
+      <created>1597001321560</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1597001321560</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +392,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Add more mountains" />
     <MESSAGE value="Animatior gets paused when game is paused" />
     <MESSAGE value="Remove 2 songs because they where not used" />
     <MESSAGE value="Remove useless sprites" />
@@ -404,13 +416,14 @@
     <MESSAGE value="Set coins to a different position in chunk 8" />
     <MESSAGE value="Remove chunk 17 because it did not bring fun in the game" />
     <MESSAGE value="Make trampoline smaller in chunk 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make trampoline smaller in chunk 14" />
+    <MESSAGE value="Make chunk 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make chunk 17" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597000204108">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597001323594">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597000204108" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597001323594" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
