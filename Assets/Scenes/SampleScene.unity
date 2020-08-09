@@ -3984,6 +3984,8 @@ MonoBehaviour:
   - {fileID: 7537932828106050994, guid: 0e97b5169463e48668760ec11e2c9ca0, type: 3}
   - {fileID: 7537932828106050994, guid: 798dd4978ba86479f9203706e2ad49c6, type: 3}
   - {fileID: 7537932828106050994, guid: 09e21007a40044c45898b2d558e965be, type: 3}
+  - {fileID: 7537932828106050994, guid: 966dca9824f1340cea0ffe78c21d5305, type: 3}
+  - {fileID: 7537932828106050994, guid: b848a6c531faf4a20b3193745e917bca, type: 3}
   emptyChunk: {fileID: 0}
   timeForNextChunk: 3.4
 --- !u!4 &611264689
@@ -17502,7 +17504,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2115170870
 RectTransform:
   m_ObjectHideFlags: 0
