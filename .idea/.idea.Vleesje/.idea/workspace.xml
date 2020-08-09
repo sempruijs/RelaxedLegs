@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Update chunk 13" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Update chunk 13 and 14" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,10 +36,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn/SpawnChunk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn/SpawnObjectsInTimeFrame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnGrass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Chunk 13.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChunkMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9FBAB937-6C17-4889-B8C2-7DB9B7A9BB6E/5d/05d7d73b/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RandomSprite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 13.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveChunk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
@@ -114,7 +116,7 @@
       <workItem from="1595964720284" duration="4006000" />
       <workItem from="1596797729673" duration="7565000" />
       <workItem from="1596970606846" duration="44000" />
-      <workItem from="1596970777287" duration="2330000" />
+      <workItem from="1596970777287" duration="2605000" />
     </task>
     <task id="LOCAL-00001" summary="Remove unity ads">
       <created>1596886126035</created>
@@ -305,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596980499633</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Update chunk 13 and 14">
+      <created>1596980816947</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1596980816947</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,13 +360,14 @@
     <MESSAGE value="Update chunk 15" />
     <MESSAGE value="Update chunk 11" />
     <MESSAGE value="Update chunk 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update chunk 13" />
+    <MESSAGE value="Update chunk 13 and 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update chunk 13 and 14" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1596980501699">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1596980824564">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1596980501699" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1596980824564" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
