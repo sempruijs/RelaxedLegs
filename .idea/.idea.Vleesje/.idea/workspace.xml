@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Set coins to a different position in chunk 8">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 17.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 17.prefab.meta" beforeDir="false" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Remove chunk 17 because it did not bring fun in the game">
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Chunk/MoverChunk16.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Chunk/MoverChunk16.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +121,7 @@
       <workItem from="1595964720284" duration="4006000" />
       <workItem from="1596797729673" duration="7565000" />
       <workItem from="1596970606846" duration="44000" />
-      <workItem from="1596970777287" duration="5654000" />
+      <workItem from="1596970777287" duration="5844000" />
     </task>
     <task id="LOCAL-00001" summary="Remove unity ads">
       <created>1596886126035</created>
@@ -346,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596992395768</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Remove chunk 17 because it did not bring fun in the game">
+      <created>1596997396418</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1596997396418</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +377,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Change background color" />
     <MESSAGE value="There are now diffrent clouds" />
     <MESSAGE value="Add more mountains" />
     <MESSAGE value="Animatior gets paused when game is paused" />
@@ -394,13 +401,14 @@
     <MESSAGE value="Fix the stuck in wall bug" />
     <MESSAGE value="Add new icon" />
     <MESSAGE value="Set coins to a different position in chunk 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set coins to a different position in chunk 8" />
+    <MESSAGE value="Remove chunk 17 because it did not bring fun in the game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove chunk 17 because it did not bring fun in the game" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1596992397964">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1596997398343">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1596992397964" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1596997398343" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
