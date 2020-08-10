@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public GameObject player;
     public GameObject startEmptyChunks;
     public int coinsCollected;
+    public ScoreBoardManager scoreBoardManager;
+    
     
     // //UnityAds
     // private string _appStoreId = "3736862";
@@ -92,6 +94,7 @@ public class GameManager : MonoBehaviour
     {
         state = State.PlayAgain;
         DisplayManager.Instance.UpdateMenu();
+        scoreBoardManager.PostScoreOnLeaderBoard(coinsCollected);
     }
 
     public void Pause()
