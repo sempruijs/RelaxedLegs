@@ -37,6 +37,7 @@ public class ScoreBoardManager : MonoBehaviour
     
     public void PostScoreOnLeaderBoard(int myScore)
     {
+        #if UNITY_IOS
         if(loginSuccessful)
         {
             Social.ReportScore(myScore, _leaderboardID, (bool success) => {
@@ -56,6 +57,7 @@ public class ScoreBoardManager : MonoBehaviour
 
                     Social.ReportScore(myScore ,_leaderboardID, (bool successful) => {
                         // handle success or failure
+                        Debug.Log(successful ? "Reported score successfully" : "Failed to report score");
                     });
                 } else
                 {
@@ -65,6 +67,7 @@ public class ScoreBoardManager : MonoBehaviour
                 // handle success or failure
             });
         }
+        #endif
     }
 
     public void ShowLeaderBord()

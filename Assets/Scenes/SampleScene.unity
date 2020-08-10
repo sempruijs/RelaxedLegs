@@ -13976,7 +13976,7 @@ MonoBehaviour:
   startEmptyChunks: {fileID: 5800927454822342165, guid: 716ec25b3abf04ad0aebf28369fd5e03,
     type: 3}
   coinsCollected: 0
-  scoreBoardManager: {fileID: 0}
+  scoreBoardManager: {fileID: 206546262}
 --- !u!4 &1444977038
 Transform:
   m_ObjectHideFlags: 0

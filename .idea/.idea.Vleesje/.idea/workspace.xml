@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Make chunk 17">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Add leader board">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597001321560</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Add leader board">
+      <created>1597061974454</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1597061974454</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +398,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Animatior gets paused when game is paused" />
     <MESSAGE value="Remove 2 songs because they where not used" />
     <MESSAGE value="Remove useless sprites" />
     <MESSAGE value="Add new font" />
@@ -417,13 +422,15 @@
     <MESSAGE value="Remove chunk 17 because it did not bring fun in the game" />
     <MESSAGE value="Make trampoline smaller in chunk 14" />
     <MESSAGE value="Make chunk 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make chunk 17" />
+    <MESSAGE value="Add leader board" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add leader board" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597001323594">
-      <screen x="-1440" y="-338" width="1440" height="2537" />
+    <state x="670" y="372" key="Vcs.Push.Dialog.v2" timestamp="1597061977714">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597001323594" />
+    <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597061977714" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
