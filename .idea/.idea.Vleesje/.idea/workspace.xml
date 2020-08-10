@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Add leader board">
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Remove trampoline at Chunk 18.prefab">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chunk/PlayAnimationCollideWithPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn/SpawnChunk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn/SpawnObjectsInTimeFrame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnGrass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChunkMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -375,7 +375,28 @@
       <option name="project" value="LOCAL" />
       <updated>1597061974454</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Fix the leaderbord not found bug">
+      <created>1597062579976</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1597062579976</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Changes of spawning chunk 18 is normal">
+      <created>1597062659891</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1597062659891</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Remove trampoline at Chunk 18.prefab">
+      <created>1597062848204</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1597062848204</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,9 +419,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Remove 2 songs because they where not used" />
-    <MESSAGE value="Remove useless sprites" />
-    <MESSAGE value="Add new font" />
     <MESSAGE value="Apply font to the whole canvas" />
     <MESSAGE value="Fix the grass not spawn bug" />
     <MESSAGE value="Add playerSprite to the main menu" />
@@ -423,14 +441,17 @@
     <MESSAGE value="Make trampoline smaller in chunk 14" />
     <MESSAGE value="Make chunk 17" />
     <MESSAGE value="Add leader board" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add leader board" />
+    <MESSAGE value="Fix the leaderbord not found bug" />
+    <MESSAGE value="Changes of spawning chunk 18 is normal" />
+    <MESSAGE value="Remove trampoline at Chunk 18.prefab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove trampoline at Chunk 18.prefab" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="670" y="372" key="Vcs.Push.Dialog.v2" timestamp="1597061977714">
+    <state x="670" y="372" key="Vcs.Push.Dialog.v2" timestamp="1597062849707">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597001323594" />
-    <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597061977714" />
+    <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597062849707" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
