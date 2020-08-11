@@ -30,7 +30,7 @@ public class MoveEnviorment : MonoBehaviour
             if (_player.transform.position.x <= -0.5f)
             {
                 speed = _normalSpeed * 0.66667f;
-            }
+            } 
             else
             {
                 speed = _normalSpeed;

@@ -33,7 +33,7 @@ public class ChunkMover : MonoBehaviour
             if (_player.transform.position.x <= -0.5f)
             {
                 speed = 4f;
-            }
+            } 
             else
             {
                 speed = 6f;

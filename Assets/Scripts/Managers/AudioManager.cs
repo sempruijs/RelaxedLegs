@@ -5,6 +5,8 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 { 
     private AudioSource _audioSource;
+    public AudioSource inGameMusicAudioSource;
+    
     // public AudioClip inGameMusic;
     public AudioClip menuMusic;
     public AudioClip[] pickUpCoinSounds;
@@ -33,7 +35,7 @@ public class AudioManager : MonoBehaviour
     public void InGameMusic()
     {
         Stop();
-        _audioSource.Play();
+        inGameMusicAudioSource.Play();
     }
 
     public void MenuMusic()
@@ -44,12 +46,13 @@ public class AudioManager : MonoBehaviour
 
     public void PlayAudioClip(AudioClip audioClip)
     {
-        _audioSource.PlayOneShot(audioClip);
+        _audioSource.PlayOneShot(audioClip, 1f);
     }
 
     public void Stop()
     {
         _audioSource.Stop();
+        inGameMusicAudioSource.Stop();
     }
 
     public void PickUpCoin()
