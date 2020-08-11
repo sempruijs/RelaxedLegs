@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Add new buttons">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SafeArea.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SafeArea.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-    </list>
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Update Chunk 17.prefab" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,20 +124,6 @@
       <workItem from="1596970606846" duration="44000" />
       <workItem from="1596970777287" duration="7147000" />
       <workItem from="1597087930166" duration="6506000" />
-    </task>
-    <task id="LOCAL-00003" summary="Fix the extra high trampoline bug">
-      <created>1596887286003</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1596887286003</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Change background color">
-      <created>1596887639129</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1596887639129</updated>
     </task>
     <task id="LOCAL-00005" summary="Change background color">
       <created>1596887720406</created>
@@ -474,7 +454,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597151894753</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Better Iphone 10 support">
+      <created>1597158746553</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1597158746553</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Update Chunk 17.prefab">
+      <created>1597158941105</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1597158941105</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,8 +491,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Update chunk 13" />
-    <MESSAGE value="Update chunk 13 and 14" />
     <MESSAGE value="You can now tap on the player in the main menu and the game would begin" />
     <MESSAGE value="Fix the stuck in wall bug" />
     <MESSAGE value="Add new icon" />
@@ -522,13 +514,15 @@
     <MESSAGE value="Add credit menu" />
     <MESSAGE value="Add special thanks menu" />
     <MESSAGE value="Add new buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new buttons" />
+    <MESSAGE value="Better Iphone 10 support" />
+    <MESSAGE value="Update Chunk 17.prefab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Chunk 17.prefab" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597151896098">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597158942193">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597151896098" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597158942193" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
