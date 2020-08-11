@@ -45,7 +45,8 @@ public class GameManager : MonoBehaviour
         Credit,
         Settings,
         Pause,
-        SpecialThanks
+        SpecialThanks,
+        Tutorial
     };
 
     void Start()
@@ -108,6 +109,12 @@ public class GameManager : MonoBehaviour
     public void SpecialThanks()
     {
         state = State.SpecialThanks;
+        DisplayManager.Instance.UpdateMenu();
+    }
+
+    public void Tutorial()
+    {
+        state = State.Tutorial;
         DisplayManager.Instance.UpdateMenu();
     }
     

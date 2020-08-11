@@ -19,18 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Update Chunk 0.prefab">
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/Frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/Frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoDown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoDown.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoNotSpike.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoNotSpike.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoUp.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoUpUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoUpUp.png.meta" afterDir="false" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Add tutorial sprites">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TutorialHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TutorialHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/UI/rightArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/UI/rightArrow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,29 +39,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveEnviorment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SafeArea.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chunk/PlayAnimationCollideWithPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TutorialHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn/SpawnChunk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn/SpawnObjectsInTimeFrame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnGrass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChunkMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9FBAB937-6C17-4889-B8C2-7DB9B7A9BB6E/5d/05d7d73b/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RandomSprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 13.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveChunk.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeStateOnCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveEnviorment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SafeArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chunk/PlayAnimationCollideWithPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9FBAB937-6C17-4889-B8C2-7DB9B7A9BB6E/5d/05d7d73b/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeStateOnCollision.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -80,9 +79,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveEnviorment.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SafeArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TutorialHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" />
       </list>
     </option>
   </component>
@@ -136,13 +136,6 @@
       <workItem from="1596970606846" duration="44000" />
       <workItem from="1596970777287" duration="7147000" />
       <workItem from="1597087930166" duration="6506000" />
-    </task>
-    <task id="LOCAL-00006" summary="Change background color">
-      <created>1596887766034</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1596887766034</updated>
     </task>
     <task id="LOCAL-00007" summary="Change background color">
       <created>1596887790219</created>
@@ -480,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597159113796</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Add tutorial sprites">
+      <created>1597162565680</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1597162565680</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +503,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Fix the stuck in wall bug" />
     <MESSAGE value="Add new icon" />
     <MESSAGE value="Set coins to a different position in chunk 8" />
     <MESSAGE value="Remove chunk 17 because it did not bring fun in the game" />
@@ -528,13 +527,14 @@
     <MESSAGE value="Better Iphone 10 support" />
     <MESSAGE value="Update Chunk 17.prefab" />
     <MESSAGE value="Update Chunk 0.prefab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Chunk 0.prefab" />
+    <MESSAGE value="Add tutorial sprites" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tutorial sprites" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597159115531">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597162569946">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597159115531" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597162569946" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
