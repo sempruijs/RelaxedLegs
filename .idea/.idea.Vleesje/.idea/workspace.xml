@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Higher build number and version number">
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Update Chunk 5.prefab">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,12 +38,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chunk/PlayAnimationCollideWithPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn/SpawnChunk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn/SpawnObjectsInTimeFrame.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnGrass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChunkMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9FBAB937-6C17-4889-B8C2-7DB9B7A9BB6E/5d/05d7d73b/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RandomSprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 13.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveChunk.cs" root0="FORCE_HIGHLIGHTING" />
@@ -124,6 +122,7 @@
       <workItem from="1596797729673" duration="7565000" />
       <workItem from="1596970606846" duration="44000" />
       <workItem from="1596970777287" duration="7147000" />
+      <workItem from="1597087930166" duration="438000" />
     </task>
     <task id="LOCAL-00001" summary="Remove unity ads">
       <created>1596886126035</created>
@@ -405,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597069482050</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Update Chunk 5.prefab">
+      <created>1597087949530</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1597087949530</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +434,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Fix the grass not spawn bug" />
     <MESSAGE value="Add playerSprite to the main menu" />
     <MESSAGE value="You can now try again even when you click on the reset images" />
     <MESSAGE value="Add new ui sprites" />
@@ -453,13 +458,14 @@
     <MESSAGE value="Changes of spawning chunk 18 is normal" />
     <MESSAGE value="Remove trampoline at Chunk 18.prefab" />
     <MESSAGE value="Higher build number and version number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Higher build number and version number" />
+    <MESSAGE value="Update Chunk 5.prefab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Chunk 5.prefab" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="670" y="372" key="Vcs.Push.Dialog.v2" timestamp="1597069483962">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597087951774">
+      <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597001323594" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597087951774" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
