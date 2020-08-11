@@ -69,6 +69,7 @@ public class GameManager : MonoBehaviour
         state = State.Menu;
         AudioManager.Instance.MenuMusic();
         DisplayManager.Instance.UpdateMenu();
+        Time.timeScale = 1f;
     }
 
     public void InGame()
@@ -79,6 +80,7 @@ public class GameManager : MonoBehaviour
         AudioManager.Instance.InGameMusic();
         // Advertisement.Initialize(_appStoreId, useAds);
         DisplayManager.Instance.UpdateMenu();
+        Time.timeScale = 1f;
     }
 
     public void Credit()
@@ -105,6 +107,7 @@ public class GameManager : MonoBehaviour
         state = State.Pause;
         player.GetComponent<Rigidbody2D>().gravityScale = 0;
         DisplayManager.Instance.UpdateMenu();
+        Time.timeScale = 0f;
     }
 
     public void SpecialThanks()
