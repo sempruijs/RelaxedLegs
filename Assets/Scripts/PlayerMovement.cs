@@ -112,7 +112,6 @@ public class PlayerMovement : MonoBehaviour
                   AudioManager.Instance.Stop();
                   AudioManager.Instance.PlayAudioClip(deadSound);
                   gameObject.SetActive(false);
-                  // GameManager.Instance.ShowAd();
               }
               
               if (other.gameObject.CompareTag("Trampoline"))
@@ -130,23 +129,7 @@ public class PlayerMovement : MonoBehaviour
               }
           }
       }
-
-      // private void OnCollisionExit2D(Collision2D other)
-      // {
-      //     if (other.gameObject.CompareTag("Ground"))
-      //     {
-      //         SetAnimation("Jump");
-      //     }
-      // }
-
-      // private void FixedUpdate()
-      // {
-      //     if (GameManager.Instance.state == GameManager.State.InGame)
-      //     {
-      //         _rb2d.AddForce (_movement * moveSpeed);
-      //     }
-      // }
-
+      
       private void OnTriggerEnter2D(Collider2D other)
       {
           if (other.gameObject.CompareTag("Coin"))
