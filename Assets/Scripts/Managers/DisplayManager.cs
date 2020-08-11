@@ -11,6 +11,7 @@ public class DisplayManager : MonoBehaviour
     public GameObject credit;
     public GameObject settings;
     public GameObject pause;
+    public GameObject specialThanks;
 
     [Space(10)]
     public Text coinsPickedUpText;
@@ -56,6 +57,7 @@ public class DisplayManager : MonoBehaviour
         credit.SetActive(GameManager.Instance.state == GameManager.State.Credit);
         settings.SetActive(GameManager.Instance.state == GameManager.State.Settings);
         pause.SetActive(GameManager.Instance.state == GameManager.State.Pause);
+        specialThanks.SetActive(GameManager.Instance.state == GameManager.State.SpecialThanks);
     }
 
     public void UpdateSound()

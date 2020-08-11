@@ -44,7 +44,8 @@ public class GameManager : MonoBehaviour
         PlayAgain,
         Credit,
         Settings,
-        Pause
+        Pause,
+        SpecialThanks
     };
 
     void Start()
@@ -101,6 +102,12 @@ public class GameManager : MonoBehaviour
     {
         state = State.Pause;
         player.GetComponent<Rigidbody2D>().gravityScale = 0;
+        DisplayManager.Instance.UpdateMenu();
+    }
+
+    public void SpecialThanks()
+    {
+        state = State.SpecialThanks;
         DisplayManager.Instance.UpdateMenu();
     }
     

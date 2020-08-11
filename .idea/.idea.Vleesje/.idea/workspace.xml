@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Add credit button in settings menu">
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Add credit menu">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +66,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Blur.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawn/SpawnObjectsInTimeFrame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChunkMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveEnviorment.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -123,7 +125,7 @@
       <workItem from="1596797729673" duration="7565000" />
       <workItem from="1596970606846" duration="44000" />
       <workItem from="1596970777287" duration="7147000" />
-      <workItem from="1597087930166" duration="5105000" />
+      <workItem from="1597087930166" duration="5775000" />
     </task>
     <task id="LOCAL-00001" summary="Remove unity ads">
       <created>1596886126035</created>
@@ -461,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597147031869</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Add credit menu">
+      <created>1597148535810</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1597148535810</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +493,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="New play again menu" />
     <MESSAGE value="Update chunk 15" />
     <MESSAGE value="Update chunk 11" />
     <MESSAGE value="Update chunk 13" />
@@ -509,13 +517,14 @@
     <MESSAGE value="Make a music toggle in the settings menu" />
     <MESSAGE value="Add SFX toggle" />
     <MESSAGE value="Add credit button in settings menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add credit button in settings menu" />
+    <MESSAGE value="Add credit menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add credit menu" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597147032911">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597148538445">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597147032911" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597148538445" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
