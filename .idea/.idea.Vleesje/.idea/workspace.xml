@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Bug fix in Chunk 13.prefab">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Remove unity ads comments">
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,13 +133,6 @@
       <workItem from="1596970606846" duration="44000" />
       <workItem from="1596970777287" duration="7147000" />
       <workItem from="1597087930166" duration="6506000" />
-    </task>
-    <task id="LOCAL-00014" summary="Add new font">
-      <created>1596897457448</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1596897457448</updated>
     </task>
     <task id="LOCAL-00015" summary="Apply font to the whole canvas">
       <created>1596897813849</created>
@@ -480,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597171784146</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Remove unity ads comments">
+      <created>1597181112476</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1597181112476</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +500,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Changes of spawning chunk 18 is normal" />
     <MESSAGE value="Remove trampoline at Chunk 18.prefab" />
     <MESSAGE value="Higher build number and version number" />
     <MESSAGE value="Update Chunk 5.prefab" />
@@ -528,15 +524,16 @@
     <MESSAGE value="Fix the home in the play agaim menu bug" />
     <MESSAGE value="Improved pause functionallity" />
     <MESSAGE value="Bug fix in Chunk 13.prefab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fix in Chunk 13.prefab" />
+    <MESSAGE value="Remove unity ads comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unity ads comments" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597171785991">
-      <screen x="-1440" y="-338" width="1440" height="2537" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1597181117046">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597171785991" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1597181117046" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
