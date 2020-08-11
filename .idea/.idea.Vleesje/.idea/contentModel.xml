@@ -28,6 +28,7 @@
           <e p="PlayerMovement.cs" t="Include" />
           <e p="RandomSprite.cs" t="Include" />
           <e p="Rotate.cs" t="Include" />
+          <e p="SafeArea.cs" t="Include" />
           <e p="ScoreBoardManager.cs" t="Include" />
           <e p="Spawn" t="Include">
             <e p="SpawnBetweenTwoPoints.cs" t="Include" />
