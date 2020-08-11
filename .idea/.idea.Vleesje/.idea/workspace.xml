@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Add settings button in main menu">
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Change background color in settings menu">
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/UI/ToggleBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/UI/ToggleBackground.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/UI/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/UI/check.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChunkMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChunkMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/AudioManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveEnviorment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveEnviorment.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +127,7 @@
       <workItem from="1596797729673" duration="7565000" />
       <workItem from="1596970606846" duration="44000" />
       <workItem from="1596970777287" duration="7147000" />
-      <workItem from="1597087930166" duration="1598000" />
+      <workItem from="1597087930166" duration="2420000" />
     </task>
     <task id="LOCAL-00001" summary="Remove unity ads">
       <created>1596886126035</created>
@@ -429,7 +430,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597141876186</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Shape pick up sound is now louder">
+      <created>1597143101659</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1597143101659</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Change background color in settings menu">
+      <created>1597143240980</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1597143240980</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,8 +467,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Add new ui sprites" />
-    <MESSAGE value="Implement new pause button sprite" />
     <MESSAGE value="Implement new sprites in the pause menu" />
     <MESSAGE value="Better performance in the DisplayManager.cs&#10;Made singleton out of DisplayManager.cs" />
     <MESSAGE value="Add chunk 17" />
@@ -477,13 +490,15 @@
     <MESSAGE value="Update Chunk 5.prefab" />
     <MESSAGE value="Make score board button bigger" />
     <MESSAGE value="Add settings button in main menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add settings button in main menu" />
+    <MESSAGE value="Shape pick up sound is now louder" />
+    <MESSAGE value="Change background color in settings menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change background color in settings menu" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597141877299">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597143246961">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597141877299" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597143246961" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1596891049897" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
