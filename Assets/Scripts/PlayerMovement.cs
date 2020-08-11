@@ -122,7 +122,11 @@ public class PlayerMovement : MonoBehaviour
                       Jump();
                       trampolineJumpAgainTime = 0.1f;
                   }
-                  AudioManager.Instance.PlayAudioClip(trampolineSound);
+
+                  if (AudioManager.Instance.sfx)
+                  {
+                      AudioManager.Instance.PlayAudioClip(trampolineSound);    
+                  }
               }
           }
       }

@@ -6,9 +6,11 @@ public class AudioManager : MonoBehaviour
 { 
     private AudioSource _audioSource;
     public AudioSource inGameMusicAudioSource;
+
+    public bool music = true;
+    public bool sfx = true;
     
-    // public AudioClip inGameMusic;
-    public AudioClip menuMusic;
+    public AudioClip menuMusicAudioClip;
     public AudioClip[] pickUpCoinSounds;
     
     private static AudioManager _instance;
@@ -34,14 +36,20 @@ public class AudioManager : MonoBehaviour
 
     public void InGameMusic()
     {
-        Stop();
-        inGameMusicAudioSource.Play();
+        if (music)
+        {
+            Stop();
+            inGameMusicAudioSource.Play();   
+        }
     }
 
     public void MenuMusic()
     {
-        Stop();
-        PlayAudioClip(menuMusic);
+        if (music)
+        {
+            Stop();
+            PlayAudioClip(menuMusicAudioClip);            
+        }
     }
 
     public void PlayAudioClip(AudioClip audioClip)
@@ -57,6 +65,9 @@ public class AudioManager : MonoBehaviour
 
     public void PickUpCoin()
     {
-        PlayAudioClip(pickUpCoinSounds[Random.Range(0, pickUpCoinSounds.Length)]);
+        if (sfx)
+        {
+            PlayAudioClip(pickUpCoinSounds[Random.Range(0, pickUpCoinSounds.Length)]);    
+        }
     }
 }
