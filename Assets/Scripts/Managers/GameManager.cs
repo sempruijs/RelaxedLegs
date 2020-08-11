@@ -53,6 +53,7 @@ public class GameManager : MonoBehaviour
     {
         Menu();
         Application.targetFrameRate = 300;
+        ShowTutorial();
     }
 
     void Update()
@@ -159,4 +160,12 @@ public class GameManager : MonoBehaviour
     //     }
     //    
     // }
+    public void ShowTutorial()
+    {
+        if (PlayerPrefs.GetInt("FirstTime", 0) == 0)
+        {
+            Tutorial();
+            PlayerPrefs.SetInt("FirstTime", 1);
+        }
+    }
 }
