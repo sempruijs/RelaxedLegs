@@ -20,7 +20,6 @@
             <e p="DisplayManager.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
           </e>
-          <e p="MoveChunk.cs" t="Include" />
           <e p="MoveEnviorment.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="RandomSprite.cs" t="Include" />
