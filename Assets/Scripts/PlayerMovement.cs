@@ -5,22 +5,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-      //Input
-      [Header("Input")]
-      private float _moveHorizontal;
-      private float _moveVertical;
-      private Vector2 _movement;
-      
       //Speed
       [Header("Speed")]
-      public float moveSpeed;
       public float jumpForce;
       
       //Data
       [Header("Data")]
       public int amountOfJumps;
       private int _jumpsLeft;
-      public bool turnAroundAnimation;
       public float trampolineJumpAgainTime;
 
       //Components
@@ -29,7 +21,6 @@ public class PlayerMovement : MonoBehaviour
       private AudioSource _audioSource;
       private Animator _animator;
       
-      //Sound
       [Header("AudioClips")]
       public AudioClip trampolineSound;
       public AudioClip deadSound;
@@ -58,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
                   GoDown(false);
               }
           
-          //animation
+            //animation
           if (GameManager.Instance.state == GameManager.State.InGame)
           {
               _animator.speed = 1f;

@@ -19,9 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Remove Rotate.cs">
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Coin/Coin.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Coin/Coin.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/CoinContainer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/CoinContainer.prefab" afterDir="false" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Remove useless SFX">
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin10.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin10.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin4.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin5.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin6.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin6.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin7.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin7.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin8.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin8.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin9.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/PickUp/Pickup_Coin9.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,20 +152,6 @@
       <workItem from="1596970777287" duration="7147000" />
       <workItem from="1597087930166" duration="6506000" />
       <workItem from="1597226279137" duration="1596000" />
-    </task>
-    <task id="LOCAL-00019" summary="Add new ui sprites">
-      <created>1596906446802</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1596906446802</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Implement new pause button sprite">
-      <created>1596906710833</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1596906710833</updated>
     </task>
     <task id="LOCAL-00021" summary="Implement new sprites in the pause menu">
       <created>1596906889545</created>
@@ -476,7 +482,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597334535798</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Fix coin bug">
+      <created>1597337018966</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1597337018966</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Remove useless SFX">
+      <created>1597337263069</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1597337263070</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,8 +519,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Add settings button in main menu" />
-    <MESSAGE value="Shape pick up sound is now louder" />
     <MESSAGE value="Change background color in settings menu" />
     <MESSAGE value="Make a music toggle in the settings menu" />
     <MESSAGE value="Add SFX toggle" />
@@ -524,15 +542,21 @@
     <MESSAGE value="Remove MoveObjectBetweenPoints.cs" />
     <MESSAGE value="Remove MoveChunk.cs" />
     <MESSAGE value="Remove Rotate.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Rotate.cs" />
+    <MESSAGE value="Fix coin bug" />
+    <MESSAGE value="Remove useless SFX" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove useless SFX" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1597334537344">
+    <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog" timestamp="1597337568552">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1597337568552" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1597337264727">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597171785991" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1597334537344" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1597337264727" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
