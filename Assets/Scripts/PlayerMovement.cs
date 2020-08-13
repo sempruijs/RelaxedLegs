@@ -21,7 +21,6 @@ public class PlayerMovement : MonoBehaviour
       public int amountOfJumps;
       private int _jumpsLeft;
       public bool turnAroundAnimation;
-      public bool topDown;
       public float trampolineJumpAgainTime;
 
       //Components
@@ -32,10 +31,8 @@ public class PlayerMovement : MonoBehaviour
       
       //Sound
       [Header("AudioClips")]
-      public AudioClip jumpSound;
       public AudioClip trampolineSound;
       public AudioClip deadSound;
-      public AudioClip pickUpCoin;
 
       void Start()
       {
@@ -46,14 +43,10 @@ public class PlayerMovement : MonoBehaviour
   
       void Update()
       {
-          // _moveHorizontal = Input.GetAxis("Horizontal");
-
-          if (!topDown)
-          {
-              if (Input.GetKeyDown("space") || Input.GetKeyDown("w") || Input.GetKeyDown("up"))
-              {
-                 ActivateJump();
-              }
+            if (Input.GetKeyDown("space") || Input.GetKeyDown("w") || Input.GetKeyDown("up"))
+            {
+                ActivateJump();
+            }
 
               if (Input.GetKeyDown("down"))
               {
@@ -64,19 +57,12 @@ public class PlayerMovement : MonoBehaviour
               {
                   GoDown(false);
               }
-          }
           
           //animation
-          if (turnAroundAnimation && GameManager.Instance.state == GameManager.State.InGame)
+          if (GameManager.Instance.state == GameManager.State.InGame)
           {
-              if (_moveHorizontal < 0)
-              {
-                  transform.rotation = Quaternion.Euler(0, 180, 0);
-              } else if (_moveHorizontal > 0)
-              {
-                  transform.rotation = Quaternion.Euler(0, 0, 0);
-              }
               _animator.speed = 1f;
+              trampolineJumpAgainTime -= Time.deltaTime;
           }
 
           if (GameManager.Instance.state == GameManager.State.Pause)
@@ -88,44 +74,36 @@ public class PlayerMovement : MonoBehaviour
           {
               recover();
           }
-
-          if (GameManager.Instance.state == GameManager.State.InGame)
-          {
-              trampolineJumpAgainTime -= Time.deltaTime;
-          }
       }
 
       //Collision
       private void OnCollisionEnter2D(Collision2D other)
       {
-          if (!topDown)
+          if (other.gameObject.CompareTag("Ground"))
           {
-              if (other.gameObject.CompareTag("Ground"))
+              _jumpsLeft = amountOfJumps;
+              SetAnimation("Land");
+          }
+
+          if (other.gameObject.CompareTag("Spike"))
+          {
+              GameManager.Instance.PlayAgain();
+              AudioManager.Instance.Stop();
+              AudioManager.Instance.PlayAudioClip(deadSound);
+              gameObject.SetActive(false);
+          }
+          
+          if (other.gameObject.CompareTag("Trampoline"))
+          {
+              if (trampolineJumpAgainTime <= 0f)
               {
-                  _jumpsLeft = amountOfJumps;
-                  SetAnimation("Land");
+                  Jump();
+                  trampolineJumpAgainTime = 0.1f;
               }
 
-              if (other.gameObject.CompareTag("Spike"))
+              if (AudioManager.Instance.sfx)
               {
-                  GameManager.Instance.PlayAgain();
-                  AudioManager.Instance.Stop();
-                  AudioManager.Instance.PlayAudioClip(deadSound);
-                  gameObject.SetActive(false);
-              }
-              
-              if (other.gameObject.CompareTag("Trampoline"))
-              {
-                  if (trampolineJumpAgainTime <= 0f)
-                  {
-                      Jump();
-                      trampolineJumpAgainTime = 0.1f;
-                  }
-
-                  if (AudioManager.Instance.sfx)
-                  {
-                      AudioManager.Instance.PlayAudioClip(trampolineSound);    
-                  }
+                  AudioManager.Instance.PlayAudioClip(trampolineSound);    
               }
           }
       }
@@ -155,7 +133,6 @@ public class PlayerMovement : MonoBehaviour
           {
               _jumpsLeft--;
               Jump();
-              // _audioSource.PlayOneShot(jumpSound);
               SetAnimation("Jump");
           }
       }

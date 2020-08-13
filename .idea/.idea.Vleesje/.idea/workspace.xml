@@ -19,9 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Remove MoveObjectBetweenPoints.cs">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveChunk.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveChunk.cs.meta" beforeDir="false" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Remove Rotate.cs">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Destroy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Destroy/ChangeStateToWhenAllObjectsWithTagAreDestroyed.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Destroy/ChangeStateToWhenAllObjectsWithTagAreDestroyed.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Destroy/DestroyAfterxSeconds.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Destroy/DestroyAfterxSeconds.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Destroy/DestroyWhenCollideWithTag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Destroy/DestroyWhenCollideWithTag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +84,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TutorialHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TakeScreenShot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       </list>
     </option>
   </component>
@@ -132,20 +140,6 @@
       <workItem from="1596970777287" duration="7147000" />
       <workItem from="1597087930166" duration="6506000" />
       <workItem from="1597226279137" duration="1596000" />
-    </task>
-    <task id="LOCAL-00017" summary="Add playerSprite to the main menu">
-      <created>1596899406028</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1596899406028</updated>
-    </task>
-    <task id="LOCAL-00018" summary="You can now try again even when you click on the reset images">
-      <created>1596905400227</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1596905400227</updated>
     </task>
     <task id="LOCAL-00019" summary="Add new ui sprites">
       <created>1596906446802</created>
@@ -476,7 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597334054106</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Remove MoveChunk.cs">
+      <created>1597334348897</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1597334348897</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Remove Rotate.cs">
+      <created>1597334535797</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1597334535798</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,8 +507,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Update Chunk 5.prefab" />
-    <MESSAGE value="Make score board button bigger" />
     <MESSAGE value="Add settings button in main menu" />
     <MESSAGE value="Shape pick up sound is now louder" />
     <MESSAGE value="Change background color in settings menu" />
@@ -524,15 +530,17 @@
     <MESSAGE value="Remove unity ads comments" />
     <MESSAGE value="Refacter if-statement in PlayerMovement.cs at line 53" />
     <MESSAGE value="Remove MoveObjectBetweenPoints.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove MoveObjectBetweenPoints.cs" />
+    <MESSAGE value="Remove MoveChunk.cs" />
+    <MESSAGE value="Remove Rotate.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove Rotate.cs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1597334055367">
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1597334537344">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597171785991" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1597334055367" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1597334537344" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
