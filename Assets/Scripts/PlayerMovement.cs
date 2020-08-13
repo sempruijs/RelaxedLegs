@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
 
           if (!topDown)
           {
-              if (Input.GetKeyDown("space") || Input.GetKeyDown("w") || Input.GetKeyDown("up") || Input.GetButtonDown(""))
+              if (Input.GetKeyDown("space") || Input.GetKeyDown("w") || Input.GetKeyDown("up"))
               {
                  ActivateJump();
               }
