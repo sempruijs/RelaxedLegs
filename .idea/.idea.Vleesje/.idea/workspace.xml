@@ -19,44 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Refacter if-statement in PlayerMovement.cs at line 53">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TakeScreenShot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TakeScreenShot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/5.5/5.5_8-12_12-32-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/5.5/5.5_8-12_12-32-51.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/5.5/5.5_8-12_12-33-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/5.5/5.5_8-12_12-33-44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/5.5/5.5_8-12_12-33-51.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/5.5/5.5_8-12_12-33-53.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/5.5/5.5_8-12_12-33-59.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/5.5/5.5_8-12_12-33-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/5.5/5.5_8-12_12-34-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/5.5/5.5_8-12_12-34-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/6.5/6.5_8-12_12-23-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/6.5/6.5_8-12_12-24-44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/6.5/6.5_8-12_12-24-51.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/6.5/6.5_8-12_12-24-53.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/6.5/6.5_8-12_12-25-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/6.5/6.5_8-12_12-25-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/6.5/6.5_8-12_12-25-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/6.5/6.5_8-12_12-25-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/6.5/6.5_8-12_12-25-49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/IpadPro12.9/5.5_8-12_12-37-34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/IpadPro12.9/5.5_8-12_12-38-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/IpadPro12.9/5.5_8-12_12-38-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/IpadPro12.9/5.5_8-12_12-38-55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/IpadPro12.9/5.5_8-12_12-39-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/IpadPro12.9/5.5_8-12_12-39-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/IpadPro12.9/5.5_8-12_12-39-53.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/IpadPro12.9/5.5_8-12_12-39-55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/IpadPro12.9/5.5_8-12_12-40-44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/IpadPro12.9/5.5_8-12_12-40-47.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-    </list>
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Remove SpawnBetweenTwoPoints.cs and SpawnObjectWithKey.cs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,29 +35,26 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveEnviorment.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TutorialHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SafeArea.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chunk/PlayAnimationCollideWithPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn/SpawnChunk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn/SpawnObjectsInTimeFrame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnGrass.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TakeScreenShot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChunkMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9FBAB937-6C17-4889-B8C2-7DB9B7A9BB6E/5d/05d7d73b/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RandomSprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 13.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveChunk.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeStateOnCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveEnviorment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SafeArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chunk/PlayAnimationCollideWithPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9FBAB937-6C17-4889-B8C2-7DB9B7A9BB6E/5d/05d7d73b/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TakeScreenShot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeStateOnCollision.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
