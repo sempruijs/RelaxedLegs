@@ -126,7 +126,7 @@ public class PlayerMovement : MonoBehaviour
 
       public void Recover()
       {
-          _rb2d.AddForce(new Vector2(400f, 0f));
+          _rb2d.AddForce(new Vector2(300f, 0f));
       }
       
       //Animation
