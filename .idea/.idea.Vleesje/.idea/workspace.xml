@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Remove using things that where not used in all scripts">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Better StartMovingAnimation ˚">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 13.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 13.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,13 +139,6 @@
       <workItem from="1596970777287" duration="7147000" />
       <workItem from="1597087930166" duration="6506000" />
       <workItem from="1597226279137" duration="1596000" />
-    </task>
-    <task id="LOCAL-00033" summary="Remove chunk 17 because it did not bring fun in the game">
-      <created>1596997396418</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1596997396418</updated>
     </task>
     <task id="LOCAL-00034" summary="Make trampoline smaller in chunk 14">
       <created>1597000201780</created>
@@ -483,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597398053777</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Better StartMovingAnimation ˚">
+      <created>1597399059181</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1597399059181</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +506,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Add safe area support in the tutorial menu" />
     <MESSAGE value="Show tutorial if you open the app for the first time" />
     <MESSAGE value="New app icon" />
     <MESSAGE value="Fix the home in the play agaim menu bug" />
@@ -531,17 +530,18 @@
     <MESSAGE value="Clear up SpawnChunk.cs" />
     <MESSAGE value="Remove a lot of Using things because they where not used" />
     <MESSAGE value="Remove using things that where not used in all scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove using things that where not used in all scripts" />
+    <MESSAGE value="Better StartMovingAnimation ˚" />
+    <option name="LAST_COMMIT_MESSAGE" value="Better StartMovingAnimation ˚" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog" timestamp="1597337568552">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1597337568552" />
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597398054627">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597399060144">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597398054627" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597399060144" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1597337708227" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
