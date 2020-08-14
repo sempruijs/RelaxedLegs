@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Add comments in PlayerMovement.cs">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 8.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 8.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
-    </list>
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Fix the spike bug" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,13 +137,6 @@
       <workItem from="1596970777287" duration="7147000" />
       <workItem from="1597087930166" duration="6506000" />
       <workItem from="1597226279137" duration="1596000" />
-    </task>
-    <task id="LOCAL-00038" summary="Changes of spawning chunk 18 is normal">
-      <created>1597062659891</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1597062659891</updated>
     </task>
     <task id="LOCAL-00039" summary="Remove trampoline at Chunk 18.prefab">
       <created>1597062848204</created>
@@ -487,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597400386227</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Fix the spike bug">
+      <created>1597412352564</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1597412352564</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,7 +504,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Bug fix in Chunk 13.prefab" />
     <MESSAGE value="Remove unity ads comments" />
     <MESSAGE value="Refacter if-statement in PlayerMovement.cs at line 53" />
     <MESSAGE value="Remove MoveObjectBetweenPoints.cs" />
@@ -535,17 +528,18 @@
     <MESSAGE value="Player doesn't go to much forward now" />
     <MESSAGE value="Player recovers slower" />
     <MESSAGE value="Add comments in PlayerMovement.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add comments in PlayerMovement.cs" />
+    <MESSAGE value="Fix the spike bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix the spike bug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog" timestamp="1597337568552">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1597337568552" />
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597400387331">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597412353524">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597400387331" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597412353524" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1597337708227" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
