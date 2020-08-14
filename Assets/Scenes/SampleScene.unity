@@ -15793,7 +15793,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1377132000
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18450,16 +18450,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db263630948584bd9b1d7d3d25a66c75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1200
   jumpForce: 29000
   amountOfJumps: 2
-  turnAroundAnimation: 1
-  topDown: 0
   trampolineJumpAgainTime: 0
-  jumpSound: {fileID: 8300000, guid: c5fb5611c1338468389d3d34b99c75d7, type: 3}
   trampolineSound: {fileID: 8300000, guid: 7a1da4abc57254fae9da0e03c8b72cd5, type: 3}
   deadSound: {fileID: 8300000, guid: 8cb2a3ec8455846169ad3a04259dbbee, type: 3}
-  pickUpCoin: {fileID: 8300000, guid: cf85d9fcd6b2a456ca1c1421b329e4eb, type: 3}
 --- !u!82 &1704850084
 AudioSource:
   m_ObjectHideFlags: 0

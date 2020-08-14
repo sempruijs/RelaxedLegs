@@ -18,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
       //Components
       [Header("Components")]
       private Rigidbody2D _rb2d;
-      private AudioSource _audioSource;
       private Animator _animator;
       
       [Header("AudioClips")]
@@ -28,12 +27,12 @@ public class PlayerMovement : MonoBehaviour
       void Start()
       {
           _rb2d = GetComponent<Rigidbody2D>();
-          _audioSource = GetComponent<AudioSource>();
           _animator = GetComponent<Animator>();
       }
   
       void Update()
       {
+           // handel movement
             if (Input.GetKeyDown("space") || Input.GetKeyDown("w") || Input.GetKeyDown("up"))
             {
                 ActivateJump();
@@ -48,6 +47,11 @@ public class PlayerMovement : MonoBehaviour
               {
                   GoDown(false);
               }
+              
+              if (gameObject.transform.position.x <= -0.5f)
+              {
+                  recover();
+              }
           
             //animation
           if (GameManager.Instance.state == GameManager.State.InGame)
@@ -59,11 +63,6 @@ public class PlayerMovement : MonoBehaviour
           if (GameManager.Instance.state == GameManager.State.Pause)
           {
               _animator.speed = 0f;
-          }
-
-          if (gameObject.transform.position.x <= -0.5f)
-          {
-              recover();
           }
       }
 
