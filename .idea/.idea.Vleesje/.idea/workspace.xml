@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Remove useless sound effects" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Remove screenshot folder" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,20 +129,6 @@
       <workItem from="1596970777287" duration="7147000" />
       <workItem from="1597087930166" duration="6506000" />
       <workItem from="1597226279137" duration="1596000" />
-    </task>
-    <task id="LOCAL-00023" summary="Add chunk 17">
-      <created>1596972790822</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1596972790822</updated>
-    </task>
-    <task id="LOCAL-00024" summary="New play again menu">
-      <created>1596979571427</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1596979571427</updated>
     </task>
     <task id="LOCAL-00025" summary="Update chunk 15">
       <created>1596980069791</created>
@@ -473,7 +459,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597395002537</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Remove lots of useless sprites">
+      <created>1597395691722</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1597395691722</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Remove screenshot folder">
+      <created>1597395976664</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1597395976664</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,8 +496,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Add SFX toggle" />
-    <MESSAGE value="Add credit button in settings menu" />
     <MESSAGE value="Add credit menu" />
     <MESSAGE value="Add special thanks menu" />
     <MESSAGE value="Add new buttons" />
@@ -521,17 +519,19 @@
     <MESSAGE value="Remove useless SFX" />
     <MESSAGE value="Refacotor PlayerMovement.cs" />
     <MESSAGE value="Remove useless sound effects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove useless sound effects" />
+    <MESSAGE value="Remove lots of useless sprites" />
+    <MESSAGE value="Remove screenshot folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove screenshot folder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog" timestamp="1597337568552">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1597337568552" />
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597395003694">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597395978267">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597395003694" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597395978267" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1597337708227" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
