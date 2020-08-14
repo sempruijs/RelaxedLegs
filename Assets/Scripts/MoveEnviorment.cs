@@ -25,7 +25,7 @@ public class MoveEnviorment : MonoBehaviour
                 Destroy(gameObject);
             }
             
-            if (_player.transform.position.x <= -0.5f)
+            if (_player.transform.position.x <= -1.5f)
             {
                 speed = _normalSpeed * 0.66667f;
             } 

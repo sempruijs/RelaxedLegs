@@ -30,37 +30,37 @@ public class PlayerMovement : MonoBehaviour
       void Update()
       {
            // handel movement
-            if (Input.GetKeyDown("space") || Input.GetKeyDown("w") || Input.GetKeyDown("up"))
-            {
-                ActivateJump();
-            }
+           if (Input.GetKeyDown("space") || Input.GetKeyDown("w") || Input.GetKeyDown("up"))
+           { 
+               ActivateJump();
+           }
 
-              if (Input.GetKeyDown("down"))
-              {
-                  GoDown(true);
-              }
+           if (Input.GetKeyDown("down"))
+           { 
+               GoDown(true);
+           }
 
-              if (Input.GetKeyUp("down"))
-              {
-                  GoDown(false);
-              }
+           if (Input.GetKeyUp("down"))
+           { 
+               GoDown(false);
+           }
               
-              if (gameObject.transform.position.x <= -0.5f)
-              {
-                  recover();
-              }
+           if (gameObject.transform.position.x <= -1.5f)
+           { 
+               Recover();
+           }
           
-            //animation
-          if (GameManager.Instance.state == GameManager.State.InGame)
-          {
-              _animator.speed = 1f;
-              trampolineJumpAgainTime -= Time.deltaTime;
-          }
+           //animation
+           if (GameManager.Instance.state == GameManager.State.InGame)
+           { 
+               _animator.speed = 1f;
+               trampolineJumpAgainTime -= Time.deltaTime;
+           }
 
-          if (GameManager.Instance.state == GameManager.State.Pause)
-          {
+           if (GameManager.Instance.state == GameManager.State.Pause)
+           {
               _animator.speed = 0f;
-          }
+           }
       }
 
       //Collision
@@ -124,9 +124,9 @@ public class PlayerMovement : MonoBehaviour
           }
       }
 
-      public void recover()
+      public void Recover()
       {
-          _rb2d.AddForce(new Vector2(500.0f, 0f));
+          _rb2d.AddForce(new Vector2(400f, 0f));
       }
       
       //Animation
