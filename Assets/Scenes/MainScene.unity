@@ -4254,7 +4254,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522975133}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.53, y: 3.7917864, z: -1295.9473}
+  m_LocalPosition: {x: 4.01, y: 3.7917864, z: -1295.9473}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3480675917863132063}
@@ -4848,8 +4848,6 @@ MonoBehaviour:
   - {fileID: 7537932828106050994, guid: 966dca9824f1340cea0ffe78c21d5305, type: 3}
   - {fileID: 7537932828106050994, guid: 7debf83bac23041e3880b3e3b7a162f8, type: 3}
   - {fileID: 7537932828106050994, guid: eae7ca735423c47928a6e8e98b1e7b85, type: 3}
-  emptyChunk: {fileID: 0}
-  timeForNextChunk: 3.4
 --- !u!4 &611264689
 Transform:
   m_ObjectHideFlags: 0
@@ -5889,7 +5887,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minimumTime: 4
   maximumTime: 13
-  playWithSoundClip: {fileID: 0}
   prefabs:
   - {fileID: 1523536776701588374, guid: e408fcc0c63dd4cff9ddff4c3ac5e494, type: 3}
   - {fileID: 1523536776701588374, guid: 545c9b962af2c41439f2908ab974633a, type: 3}
@@ -6338,7 +6335,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minimumTime: 8
   maximumTime: 15
-  playWithSoundClip: {fileID: 0}
   prefabs:
   - {fileID: 6756373394759555022, guid: 691c023182fc04d45aefe1fa87bf74b7, type: 3}
   - {fileID: 6756373394759555022, guid: 387d995bf2bb94cf9bf4e0fad6392d62, type: 3}

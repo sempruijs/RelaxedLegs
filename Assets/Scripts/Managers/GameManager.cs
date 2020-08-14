@@ -129,7 +129,7 @@ public class GameManager : MonoBehaviour
     public void Reset()
     {
         RemoveAllGameObjectsWithTag("Chunk");
-        RemoveAllGameObjectsWithTag("Spike");
+        // RemoveAllGameObjectsWithTag("Spike");
         player.transform.position = new Vector3(0f, -1.5f, 0f);
         player.SetActive(true);
         Instantiate(startEmptyChunks, new Vector3(0, 0, 0), Quaternion.identity);
