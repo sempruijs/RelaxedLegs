@@ -1,0 +1,54 @@
+Index: Assets/Scripts/Rotate.cs
+===================================================================
+--- Assets/Scripts/Rotate.cs	(revision 568f66f635fcdbb228b2d598659d9b3e9d548d18)
++++ Assets/Scripts/Rotate.cs	(revision 568f66f635fcdbb228b2d598659d9b3e9d548d18)
+@@ -1,12 +0,0 @@
+-using System.Collections;
+-using System.Collections.Generic;
+-using UnityEngine;
+-
+-public class Rotate : MonoBehaviour
+-{
+-    public float speed;
+-    void Update()
+-    {
+-        transform.Rotate(new Vector3(0, 0, Time.deltaTime * speed));
+-    }
+-}
+\ No newline at end of file
+Index: Assets/Scripts/Rotate.cs.meta
+===================================================================
+--- Assets/Scripts/Rotate.cs.meta	(revision 568f66f635fcdbb228b2d598659d9b3e9d548d18)
++++ Assets/Scripts/Rotate.cs.meta	(revision 568f66f635fcdbb228b2d598659d9b3e9d548d18)
+@@ -1,11 +0,0 @@
+-fileFormatVersion: 2
+-guid: 40613680f2ca0475ea1776e87a53fba0
+-MonoImporter:
+-  externalObjects: {}
+-  serializedVersion: 2
+-  defaultReferences: []
+-  executionOrder: 0
+-  icon: {instanceID: 0}
+-  userData: 
+-  assetBundleName: 
+-  assetBundleVariant: 
+Index: .idea/.idea.Vleesje/.idea/contentModel.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ContentModelStore\">\n    <e p=\"$PROJECT_DIR$\" t=\"IncludeRecursive\">\n      <e p=\"Assembly-CSharp.csproj\" t=\"IncludeRecursive\" />\n      <e p=\"Assets\" t=\"Include\">\n        <e p=\"Scripts\" t=\"Include\">\n          <e p=\"Bullet.cs\" t=\"Include\" />\n          <e p=\"CameraFollow.cs\" t=\"Include\" />\n          <e p=\"ChangeStateOnCollision.cs\" t=\"Include\" />\n          <e p=\"Chunk\" t=\"Include\">\n            <e p=\"PlayAnimationCollideWithPlayer.cs\" t=\"Include\" />\n          </e>\n          <e p=\"ChunkMover.cs\" t=\"Include\" />\n          <e p=\"Destroy\" t=\"Include\">\n            <e p=\"ChangeStateToWhenAllObjectsWithTagAreDestroyed.cs\" t=\"Include\" />\n            <e p=\"DestroyAfterxSeconds.cs\" t=\"Include\" />\n            <e p=\"DestroyWhenCollideWithTag.cs\" t=\"Include\" />\n          </e>\n          <e p=\"Managers\" t=\"Include\">\n            <e p=\"AudioManager.cs\" t=\"Include\" />\n            <e p=\"DisplayManager.cs\" t=\"Include\" />\n            <e p=\"GameManager.cs\" t=\"Include\" />\n          </e>\n          <e p=\"MoveChunk.cs\" t=\"Include\" />\n          <e p=\"MoveEnviorment.cs\" t=\"Include\" />\n          <e p=\"MoveObjectBetweenPoints.cs\" t=\"Include\" />\n          <e p=\"PlayerMovement.cs\" t=\"Include\" />\n          <e p=\"RandomSprite.cs\" t=\"Include\" />\n          <e p=\"Rotate.cs\" t=\"Include\" />\n          <e p=\"SafeArea.cs\" t=\"Include\" />\n          <e p=\"ScoreBoardManager.cs\" t=\"Include\" />\n          <e p=\"Spawn\" t=\"Include\">\n            <e p=\"SpawnBetweenTwoPoints.cs\" t=\"Include\" />\n            <e p=\"SpawnChunk.cs\" t=\"Include\" />\n            <e p=\"SpawnObjectsInTimeFrame.cs\" t=\"Include\" />\n            <e p=\"SpawnObjectWithKey.cs\" t=\"Include\" />\n          </e>\n          <e p=\"SpawnGrass.cs\" t=\"Include\" />\n          <e p=\"TutorialHandler.cs\" t=\"Include\" />\n        </e>\n      </e>\n      <e p=\"obj\" t=\"ExcludeRecursive\" />\n      <e p=\"Packages\" t=\"ExcludeRecursive\" />\n      <e p=\"Temp/bin\" t=\"ExcludeRecursive\" />\n      <e p=\"Vleesje.sln\" t=\"IncludeFlat\" />\n    </e>\n    <e p=\"$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources\" t=\"IncludeRecursive\" />\n    <e p=\"$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_Vleesje.-843614689.00\" t=\"ExcludeRecursive\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.Vleesje/.idea/contentModel.xml	(revision 568f66f635fcdbb228b2d598659d9b3e9d548d18)
++++ .idea/.idea.Vleesje/.idea/contentModel.xml	(date 1597333156972)
+@@ -31,10 +31,8 @@
+           <e p="SafeArea.cs" t="Include" />
+           <e p="ScoreBoardManager.cs" t="Include" />
+           <e p="Spawn" t="Include">
+-            <e p="SpawnBetweenTwoPoints.cs" t="Include" />
+             <e p="SpawnChunk.cs" t="Include" />
+             <e p="SpawnObjectsInTimeFrame.cs" t="Include" />
+-            <e p="SpawnObjectWithKey.cs" t="Include" />
+           </e>
+           <e p="SpawnGrass.cs" t="Include" />
+           <e p="TutorialHandler.cs" t="Include" />
