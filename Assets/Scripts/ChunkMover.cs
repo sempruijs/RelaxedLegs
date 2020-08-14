@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ChunkMover : MonoBehaviour
 {
     public float speed;
+    private float _normalSpeed;
     public Vector3 point;
 
     private SpawnChunk _spawnChunk;
@@ -15,6 +13,7 @@ public class ChunkMover : MonoBehaviour
     {
         _spawnChunk = GameObject.FindWithTag("ChunkSpawner").GetComponent<SpawnChunk>();
         _player = GameObject.FindWithTag("Player");
+        _normalSpeed = speed;
     }
 
     void Update()
@@ -32,11 +31,11 @@ public class ChunkMover : MonoBehaviour
 
             if (_player.transform.position.x <= -0.5f)
             {
-                speed = 4f;
+                speed = _normalSpeed * 0.66667f;
             } 
             else
             {
-                speed = 6f;
+                speed = _normalSpeed;
             }
         }
     }

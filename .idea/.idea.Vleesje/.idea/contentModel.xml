@@ -5,9 +5,6 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="Animation" t="Include">
-            <e p="PlayAnimationCollideWithPlayer.cs" t="Include" />
-          </e>
           <e p="ChunkMover.cs" t="Include" />
           <e p="Managers" t="Include">
             <e p="AudioManager.cs" t="Include" />
@@ -15,6 +12,7 @@
             <e p="GameManager.cs" t="Include" />
           </e>
           <e p="MoveEnviorment.cs" t="Include" />
+          <e p="PlayAnimationCollideWithPlayer.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="RandomSprite.cs" t="Include" />
           <e p="SafeArea.cs" t="Include" />
