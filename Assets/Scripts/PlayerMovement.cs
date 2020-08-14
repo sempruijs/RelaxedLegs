@@ -2,17 +2,14 @@
 
 public class PlayerMovement : MonoBehaviour
 {
-      //Speed
       [Header("Speed")]
       public float jumpForce;
       
-      //Data
       [Header("Data")]
       public int amountOfJumps;
       private int _jumpsLeft;
       public float trampolineJumpAgainTime;
 
-      //Components
       [Header("Components")]
       private Rigidbody2D _rb2d;
       private Animator _animator;
@@ -21,12 +18,14 @@ public class PlayerMovement : MonoBehaviour
       public AudioClip trampolineSound;
       public AudioClip deadSound;
 
+      //-------------- Start --------------
       void Start()
       {
           _rb2d = GetComponent<Rigidbody2D>();
           _animator = GetComponent<Animator>();
       }
   
+      //-------------- Update --------------
       void Update()
       {
            // handel movement
@@ -63,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
            }
       }
 
-      //Collision
+      //-------------- Collision --------------
       private void OnCollisionEnter2D(Collision2D other)
       {
           if (other.gameObject.CompareTag("Ground"))
@@ -106,6 +105,9 @@ public class PlayerMovement : MonoBehaviour
           }
       }
 
+      
+      //-------------- Movement --------------
+      
       private void Jump()
       {
           if (GameManager.Instance.state == GameManager.State.InGame)
@@ -124,12 +126,17 @@ public class PlayerMovement : MonoBehaviour
           }
       }
 
-      public void Recover()
+      private void Recover()
       {
           _rb2d.AddForce(new Vector2(300f, 0f));
       }
       
-      //Animation
+      public void GoDown(bool x)
+      {
+          _animator.SetBool("Down", x);
+      }
+      
+      //-------------- Animation --------------
       public void SetAnimation(string animation)
       {
           switch (animation) 
@@ -143,10 +150,5 @@ public class PlayerMovement : MonoBehaviour
                   _animator.SetBool("IsJumping", false);
                   break;
           }
-      }
-
-      public void GoDown(bool x)
-      {
-          _animator.SetBool("Down", x);
       }
 }
