@@ -19,105 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Refacotor PlayerMovement.cs">
-      <change afterPath="$PROJECT_DIR$/Assets/SFX/Hit_Hurt2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SFX/Hit_Hurt2.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion10.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion10.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion2.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion3.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion3.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion4.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion4.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion5.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion5.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion6.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion6.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion7.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion7.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion8.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion8.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion9.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Explosion/Explosion9.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Impact.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Impact/Hit_Hurt2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Impact/Hit_Hurt2.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump10.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump10.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump2.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump3.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump3.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump4.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump4.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump5.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump5.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump6.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump6.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump7.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump7.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump8.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump8.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump9.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Jump/Jump9.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Menu.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Menu/BackSound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Menu/BackSound.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Menu/ClickSound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Menu/ClickSound.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup10.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup10.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup2.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup3.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup3.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup4.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup4.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup5.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup5.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup6.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup6.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup7.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup7.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup8.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup8.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup9.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/PowerUp/Powerup9.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot10.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot10.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot2.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot3.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot3.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot4.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot4.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot5.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot5.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot6.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot6.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot7.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot7.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot8.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot8.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot9.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFX/Shoot/Laser_Shoot9.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-    </list>
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Remove useless sound effects" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -227,13 +129,6 @@
       <workItem from="1596970777287" duration="7147000" />
       <workItem from="1597087930166" duration="6506000" />
       <workItem from="1597226279137" duration="1596000" />
-    </task>
-    <task id="LOCAL-00022" summary="Better performance in the DisplayManager.cs&#10;Made singleton out of DisplayManager.cs">
-      <created>1596907151281</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1596907151281</updated>
     </task>
     <task id="LOCAL-00023" summary="Add chunk 17">
       <created>1596972790822</created>
@@ -571,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597337707357</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Remove useless sound effects">
+      <created>1597395002537</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1597395002537</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +496,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Make a music toggle in the settings menu" />
     <MESSAGE value="Add SFX toggle" />
     <MESSAGE value="Add credit button in settings menu" />
     <MESSAGE value="Add credit menu" />
@@ -619,17 +520,18 @@
     <MESSAGE value="Fix coin bug" />
     <MESSAGE value="Remove useless SFX" />
     <MESSAGE value="Refacotor PlayerMovement.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refacotor PlayerMovement.cs" />
+    <MESSAGE value="Remove useless sound effects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove useless sound effects" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog" timestamp="1597337568552">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1597337568552" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1597337708227">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597395003694">
+      <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597171785991" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597395003694" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1597337708227" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
