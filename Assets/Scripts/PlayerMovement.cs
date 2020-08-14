@@ -34,12 +34,12 @@ public class PlayerMovement : MonoBehaviour
                ActivateJump();
            }
 
-           if (Input.GetKeyDown("down"))
+           if (Input.GetKeyDown("down") || Input.GetKeyDown("s"))
            { 
                GoDown(true);
            }
 
-           if (Input.GetKeyUp("down"))
+           if (Input.GetKeyUp("down") || Input.GetKeyUp("s"))
            { 
                GoDown(false);
            }
