@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
       void Update()
       {
            // handel movement
-           if (Input.GetKeyDown("space") || Input.GetKeyDown("w") || Input.GetKeyDown("up"))
+           if (Input.GetKeyDown("w") || Input.GetKeyDown("up"))
            { 
                ActivateJump();
            }

@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && state == State.Menu)
         {
-            InGame();
+            Reset();
         }
     }
 
