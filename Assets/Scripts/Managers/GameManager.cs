@@ -140,12 +140,10 @@ public class GameManager : MonoBehaviour
 
     public void ShowTutorial()
     {
-        #if UNITY_IOS
-            if (PlayerPrefs.GetInt("FirstTime", 0) == 0)
-            {
-                Tutorial();
-                PlayerPrefs.SetInt("FirstTime", 1);
-            }
-        #endif
+        if (PlayerPrefs.GetInt("FirstTime", 0) == 0)
+        {
+            Tutorial();
+            PlayerPrefs.SetInt("FirstTime", 1);
+        }
     }
 }

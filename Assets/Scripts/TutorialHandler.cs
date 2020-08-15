@@ -5,11 +5,17 @@ public class TutorialHandler : MonoBehaviour
 {
     public GameObject imagesShower;
     private int _currentSprite = 0;
-    public Sprite[] sprites;
+    public Sprite[] spritesIos;
+    public Sprite[] spritesMac;
+
+    public void Start()
+    {
+        UpdateSprite();
+    }
     
     public void NextSprite()
     {
-        if (_currentSprite == sprites.Length - 1)
+        if (_currentSprite == spritesIos.Length - 1)
         {
             _currentSprite = 0;
         }
@@ -24,7 +30,7 @@ public class TutorialHandler : MonoBehaviour
     {
         if (_currentSprite == 0)
         {
-            _currentSprite = sprites.Length - 1;
+            _currentSprite = spritesIos.Length - 1;
         }
         else
         {
@@ -33,8 +39,13 @@ public class TutorialHandler : MonoBehaviour
         UpdateSprite();
     }
 
-    private void UpdateSprite()
+    public void UpdateSprite()
     {
-        imagesShower.GetComponent<Image>().sprite = sprites[_currentSprite];
+        #if !UNITY_IOS
+            imagesShower.GetComponent<Image>().sprite = spritesMac[_currentSprite];
+        #endif
+        #if UNITY_IOS
+            imagesShower.GetComponent<Image>().sprite = spritesIos[_currentSprite];
+        #endif
     }
 }

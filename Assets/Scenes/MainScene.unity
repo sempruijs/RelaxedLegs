@@ -14218,11 +14218,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imagesShower: {fileID: 1561499912}
-  sprites:
+  spritesIos:
+  - {fileID: 21300000, guid: cd4894241083646f380374cafb2e229b, type: 3}
   - {fileID: 21300000, guid: ff7b423980d61440eb7802121238bb70, type: 3}
   - {fileID: 21300000, guid: e05c97b25a5e9464eab193971c8c4199, type: 3}
   - {fileID: 21300000, guid: 9816e539cdf034d319cfe936d038b145, type: 3}
-  - {fileID: 21300000, guid: cd4894241083646f380374cafb2e229b, type: 3}
+  spritesMac:
+  - {fileID: 21300000, guid: 7d2bfe9b01f7e4c468361804b610d407, type: 3}
+  - {fileID: 21300000, guid: 747f9ab20eb9746f4bc56c81ba1122e6, type: 3}
+  - {fileID: 21300000, guid: aeb1ff9b059d24aadbb1ae0db7d16150, type: 3}
+  - {fileID: 21300000, guid: 3a2d5e0a8affc489b856b751e32f587e, type: 3}
 --- !u!1 &1184312355
 GameObject:
   m_ObjectHideFlags: 0
