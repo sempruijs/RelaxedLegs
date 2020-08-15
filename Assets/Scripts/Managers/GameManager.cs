@@ -50,6 +50,11 @@ public class GameManager : MonoBehaviour
         {
             ReloadCurrentScene();
         }
+
+        if (Input.GetKeyDown(KeyCode.Space) && state == State.Menu)
+        {
+            InGame();
+        }
     }
 
     public void Menu()

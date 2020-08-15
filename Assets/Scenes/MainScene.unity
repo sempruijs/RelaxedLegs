@@ -14189,6 +14189,7 @@ MonoBehaviour:
   tutorial: {fileID: 1573827014}
   coinsPickedUpText: {fileID: 2093836760}
   coinsPickedUpTextPlayAgain: {fileID: 1752952137}
+  tapToPlayText: {fileID: 1352243419}
   musicToggle: {fileID: 398333346}
   sfxToggle: {fileID: 1320467651}
 --- !u!4 &1163173476

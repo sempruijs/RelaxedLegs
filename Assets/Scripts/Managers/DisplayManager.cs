@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class DisplayManager : MonoBehaviour
@@ -15,6 +16,7 @@ public class DisplayManager : MonoBehaviour
     [Space(10)]
     public Text coinsPickedUpText;
     public Text coinsPickedUpTextPlayAgain;
+    public Text tapToPlayText;
 
     [Space(10)] 
     public Toggle musicToggle;
@@ -36,7 +38,12 @@ public class DisplayManager : MonoBehaviour
             _instance = this;
         } 
     }
-    
+
+    private void Start()
+    {
+        SetPlayText();
+    }
+
     void Update()
     {
         if (GameManager.Instance.state == GameManager.State.InGame)
@@ -68,5 +75,15 @@ public class DisplayManager : MonoBehaviour
         {
             AudioManager.Instance.Stop();
         }
+    }
+
+    private void SetPlayText()
+    {
+        #if UNITY_IOS 
+            tapToPlayText.text = "Tap to play";
+        #endif
+        #if !UNITY_IOS
+            tapToPlayText.text = "Space to play";        
+        #endif
     }
 }
