@@ -22,7 +22,6 @@ public class DisplayManager : MonoBehaviour
     public Toggle musicToggle;
     public Toggle sfxToggle;
     
-    
     private static DisplayManager _instance;
     public static DisplayManager Instance {
         get {
@@ -62,7 +61,9 @@ public class DisplayManager : MonoBehaviour
         playAgain.SetActive(GameManager.Instance.state == GameManager.State.PlayAgain);
         credit.SetActive(GameManager.Instance.state == GameManager.State.Credit);
         settings.SetActive(GameManager.Instance.state == GameManager.State.Settings);
-        pause.SetActive(GameManager.Instance.state == GameManager.State.Pause);
+        #if UNITY_TVOS
+            !pause.SetActive(GameManager.Instance.state == GameManager.State.Pause);
+        #endif
         specialThanks.SetActive(GameManager.Instance.state == GameManager.State.SpecialThanks);
         tutorial.SetActive(GameManager.Instance.state == GameManager.State.Tutorial);
     }

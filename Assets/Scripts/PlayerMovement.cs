@@ -29,20 +29,34 @@ public class PlayerMovement : MonoBehaviour
       void Update()
       {
            // handel movement
-           if (Input.GetKeyDown("w") || Input.GetKeyDown("up"))
-           { 
-               ActivateJump();
-           }
-
-           if (Input.GetKeyDown("down") || Input.GetKeyDown("s"))
-           { 
-               GoDown(true);
-           }
-
+#if UNITY_TVOS
+            if (Input.GetAxis("Button B") < 0.5f) {
+                GoDown(false);
+            }
+          
+            if (Input.GetAxis("Button B") >= 0.5f) {
+                GoDown(true);
+            }
+          
+            if (Input.GetAxis("Button A") >= 0.05f) {
+                GoDown(false);
+            }
+#else
            if (Input.GetKeyUp("down") || Input.GetKeyUp("s"))
            { 
                GoDown(false);
            }
+           
+           if (Input.GetKeyDown("w") || Input.GetKeyDown("up"))
+           { 
+               ActivateJump();
+           }
+           
+           if (Input.GetKeyDown("down") || Input.GetKeyDown("s"))
+           { 
+               GoDown(true);
+           }
+#endif
               
            if (gameObject.transform.position.x <= -1.5f)
            { 
@@ -134,6 +148,10 @@ public class PlayerMovement : MonoBehaviour
       public void GoDown(bool x)
       {
           _animator.SetBool("Down", x);
+          if (x)
+          {
+          Debug.Log("more true");    
+          }
       }
       
       //-------------- Animation --------------

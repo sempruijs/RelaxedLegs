@@ -17,6 +17,7 @@
           <e p="RandomSprite.cs" t="Include" />
           <e p="SafeArea.cs" t="Include" />
           <e p="ScoreBoardManager.cs" t="Include" />
+          <e p="SelectButtonScript.cs" t="Include" />
           <e p="Spawn" t="Include">
             <e p="SpawnChunk.cs" t="Include" />
             <e p="SpawnObjectsInTimeFrame.cs" t="Include" />
