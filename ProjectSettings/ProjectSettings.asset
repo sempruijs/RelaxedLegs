@@ -544,30 +544,6 @@ PlayerSettings:
   - m_BuildTarget: tvOS
     m_Icons:
     - m_Textures:
-      - {fileID: 0}
-      m_Width: 4640
-      m_Height: 1440
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 0}
-      m_Width: 2320
-      m_Height: 720
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 0}
-      m_Width: 3840
-      m_Height: 1440
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 0}
-      m_Width: 1920
-      m_Height: 720
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures:
       - {fileID: 2800000, guid: 5803ad28617f44ebf83ba90396762956, type: 3}
       - {fileID: 2800000, guid: df33c617d91fb44cd83527fdb292e27a, type: 3}
       - {fileID: 2800000, guid: 7006c2fc13cd6421db6b19ee63aa81a3, type: 3}
@@ -593,6 +569,30 @@ PlayerSettings:
       m_Width: 400
       m_Height: 240
       m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 1b46605fdb15b43489d9fbfd5804b0c1, type: 3}
+      m_Width: 4640
+      m_Height: 1440
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 3dd34350d74f2488a95d54cd8d12b154, type: 3}
+      m_Width: 2320
+      m_Height: 720
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: adc6798ff20e94b419e1bf3183851bd9, type: 3}
+      m_Width: 3840
+      m_Height: 1440
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: c4fa76b295a4a4358bb5dae2cf38c9a9, type: 3}
+      m_Width: 1920
+      m_Height: 720
+      m_Kind: 1
       m_SubKind: 
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsJobs:
