@@ -148,10 +148,6 @@ public class PlayerMovement : MonoBehaviour
       public void GoDown(bool x)
       {
           _animator.SetBool("Down", x);
-          if (x)
-          {
-          Debug.Log("more true");    
-          }
       }
       
       //-------------- Animation --------------

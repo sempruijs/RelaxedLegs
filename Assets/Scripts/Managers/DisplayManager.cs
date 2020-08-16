@@ -21,6 +21,9 @@ public class DisplayManager : MonoBehaviour
     [Space(10)] 
     public Toggle musicToggle;
     public Toggle sfxToggle;
+
+    [Space(10)] 
+    public SelectButtonScript selectButtonScript;
     
     private static DisplayManager _instance;
     public static DisplayManager Instance {
