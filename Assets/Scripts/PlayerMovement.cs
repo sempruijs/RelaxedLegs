@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
       public int amountOfJumps;
       private int _jumpsLeft;
       public float trampolineJumpAgainTime;
+      private bool _isAllowedToJump = true;
 
       [Header("Components")]
       private Rigidbody2D _rb2d;
@@ -39,8 +40,18 @@ public class PlayerMovement : MonoBehaviour
             }
           
             if (Input.GetAxis("Button A") >= 0.05f) {
-                GoDown(false);
+                if (_isAllowedToJump)
+                {
+                    ActivateJump();
+                    _isAllowedToJump = false;
+                }
             }
+
+            if (Input.GetAxis("Button A") <= 0.05f)
+            {
+                _isAllowedToJump = true;
+            }
+            
 #else
            if (Input.GetKeyUp("down") || Input.GetKeyUp("s"))
            { 
