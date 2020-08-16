@@ -171,6 +171,7 @@ PlayerSettings:
   applicationIdentifier:
     Standalone: com.unboxingsolutions.relaxedlegs
     iPhone: com.unboxingsolutions.relaxedlegs
+    tvOS: com.unboxingsolutions.relaxedlegs
   buildNumber:
     Standalone: 3
     iPhone: 11
@@ -544,33 +545,6 @@ PlayerSettings:
   - m_BuildTarget: tvOS
     m_Icons:
     - m_Textures:
-      - {fileID: 2800000, guid: 5803ad28617f44ebf83ba90396762956, type: 3}
-      - {fileID: 2800000, guid: df33c617d91fb44cd83527fdb292e27a, type: 3}
-      - {fileID: 2800000, guid: 7006c2fc13cd6421db6b19ee63aa81a3, type: 3}
-      - {fileID: 2800000, guid: 4c35abb579ef44d08b88aa9567e96674, type: 3}
-      m_Width: 1280
-      m_Height: 768
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: 3fa814fd5a51a4ebb91d255b9239db6c, type: 3}
-      - {fileID: 2800000, guid: 1f548a014e3e940c093c38c401fe975a, type: 3}
-      - {fileID: 2800000, guid: 67571cdb60812481fa76ea9d93565e47, type: 3}
-      - {fileID: 2800000, guid: 90dce53dbb69547c5a145e25f37e3caa, type: 3}
-      m_Width: 800
-      m_Height: 480
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: bdb7745a34c904f219e5d44d63277e60, type: 3}
-      - {fileID: 2800000, guid: 186ed88c07f054e359a86582987b383c, type: 3}
-      - {fileID: 2800000, guid: e9ee9b425203441f69310e4f67c85ea4, type: 3}
-      - {fileID: 2800000, guid: ab1d92f1c0b894de4a00d8c233ffcf7f, type: 3}
-      m_Width: 400
-      m_Height: 240
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures:
       - {fileID: 2800000, guid: 1b46605fdb15b43489d9fbfd5804b0c1, type: 3}
       m_Width: 4640
       m_Height: 1440
@@ -593,6 +567,33 @@ PlayerSettings:
       m_Width: 1920
       m_Height: 720
       m_Kind: 1
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 4c35abb579ef44d08b88aa9567e96674, type: 3}
+      - {fileID: 2800000, guid: df33c617d91fb44cd83527fdb292e27a, type: 3}
+      - {fileID: 2800000, guid: 7006c2fc13cd6421db6b19ee63aa81a3, type: 3}
+      - {fileID: 2800000, guid: 5c4654107ab03436c950892dc8f87c03, type: 3}
+      m_Width: 1280
+      m_Height: 768
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 90dce53dbb69547c5a145e25f37e3caa, type: 3}
+      - {fileID: 2800000, guid: 1f548a014e3e940c093c38c401fe975a, type: 3}
+      - {fileID: 2800000, guid: 67571cdb60812481fa76ea9d93565e47, type: 3}
+      - {fileID: 2800000, guid: d0e6adfb2ed744f3aae11736a3595ae4, type: 3}
+      m_Width: 800
+      m_Height: 480
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: ab1d92f1c0b894de4a00d8c233ffcf7f, type: 3}
+      - {fileID: 2800000, guid: 186ed88c07f054e359a86582987b383c, type: 3}
+      - {fileID: 2800000, guid: e9ee9b425203441f69310e4f67c85ea4, type: 3}
+      - {fileID: 2800000, guid: 5cf26c3dc84244e3abdd8db0dc766726, type: 3}
+      m_Width: 400
+      m_Height: 240
+      m_Kind: 0
       m_SubKind: 
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsJobs:
