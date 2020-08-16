@@ -34,7 +34,7 @@ public class ScoreBoardManager : MonoBehaviour
     
     public void PostScoreOnLeaderBoard(int myScore)
     {
-        #if UNITY_IOS
+        #if !UNITY_EDITOR
         if(loginSuccessful)
         {
             Social.ReportScore(myScore, _leaderboardID, (bool success) => {
