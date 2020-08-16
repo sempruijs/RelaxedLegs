@@ -175,6 +175,7 @@ PlayerSettings:
   buildNumber:
     Standalone: 3
     iPhone: 11
+    tvOS: 3
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
