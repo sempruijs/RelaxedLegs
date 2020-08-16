@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Change splash screen background">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Player can now jump with the apple tv remote">
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,13 +148,6 @@
       <workItem from="1596970777287" duration="7147000" />
       <workItem from="1597087930166" duration="6506000" />
       <workItem from="1597226279137" duration="1596000" />
-    </task>
-    <task id="LOCAL-00056" summary="Add tutorial">
-      <created>1597164661676</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1597164661677</updated>
     </task>
     <task id="LOCAL-00057" summary="Add safe area support in the tutorial menu">
       <created>1597164713368</created>
@@ -495,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597597486357</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Player can now jump with the apple tv remote">
+      <created>1597611707403</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1597611707404</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +515,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Remove a lot of Using things because they where not used" />
     <MESSAGE value="Remove using things that where not used in all scripts" />
     <MESSAGE value="Better StartMovingAnimation ˚" />
     <MESSAGE value="Change Chunk 13.prefab so you have to go down to get trough the hole" />
@@ -543,17 +539,18 @@
     <MESSAGE value="Fix app icon tvos bug" />
     <MESSAGE value="Fix the no game center bug on mac and tvos" />
     <MESSAGE value="Change splash screen background" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change splash screen background" />
+    <MESSAGE value="Player can now jump with the apple tv remote" />
+    <option name="LAST_COMMIT_MESSAGE" value="Player can now jump with the apple tv remote" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog" timestamp="1597337568552">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1597337568552" />
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597597487245">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597611708435">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597597487245" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597611708435" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1597576071385" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
