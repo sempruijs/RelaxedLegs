@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class GameManager : MonoBehaviour
     public GameObject startEmptyChunks;
     public int coinsCollected;
     public ScoreBoardManager scoreBoardManager;
+    public SelectButtonScript selectButtonScript;
+    public Button retry;
     
     private static GameManager _instance;
          public static GameManager Instance {
@@ -93,6 +96,7 @@ public class GameManager : MonoBehaviour
         state = State.PlayAgain;
         DisplayManager.Instance.UpdateMenu();
         scoreBoardManager.PostScoreOnLeaderBoard(coinsCollected);
+        selectButtonScript.SelectButton(retry);
     }
 
     public void Pause()
