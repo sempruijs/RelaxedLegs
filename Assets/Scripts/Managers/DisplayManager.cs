@@ -60,12 +60,14 @@ public class DisplayManager : MonoBehaviour
     public void UpdateMenu()
     {
         menu.SetActive(GameManager.Instance.state == GameManager.State.Menu);
-        inGame.SetActive(GameManager.Instance.state == GameManager.State.InGame);
         playAgain.SetActive(GameManager.Instance.state == GameManager.State.PlayAgain);
         credit.SetActive(GameManager.Instance.state == GameManager.State.Credit);
         settings.SetActive(GameManager.Instance.state == GameManager.State.Settings);
         #if UNITY_TVOS
-            !pause.SetActive(GameManager.Instance.state == GameManager.State.Pause);
+            pause.SetActive(false);
+            inGame.SetActive(false);
+        #else
+            inGame.SetActive(GameManager.Instance.state == GameManager.State.InGame);
         #endif
         specialThanks.SetActive(GameManager.Instance.state == GameManager.State.SpecialThanks);
         tutorial.SetActive(GameManager.Instance.state == GameManager.State.Tutorial);
