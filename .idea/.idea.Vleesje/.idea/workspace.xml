@@ -19,59 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="You can now go back with the menu button">
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/MacTutorial.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/MacTutorial/GoDown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/MacTutorial/GoDown.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/MacTutorial/GoUpUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/MacTutorial/GoUpUp.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/MacTutorial/Goup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/MacTutorial/Goup.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/MacTutorial/NoGoSpike.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/MacTutorial/NoGoSpike.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialIOS.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialIOS/Frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialIOS/Frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialIOS/GoDown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialIOS/GoDown.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialIOS/GoNotSpike.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialIOS/GoNotSpike.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialIOS/GoUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialIOS/GoUp.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialIOS/GoUpUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialIOS/GoUpUp.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialTVOs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialTVOs/GoDown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialTVOs/GoDown.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialTVOs/GoUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialTVOs/GoUp.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialTVOs/GoUpUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialTVOs/GoUpUp.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialTVOs/NoSpike.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial/TutorialTVOs/NoSpike.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TutorialHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TutorialHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/MacTutorial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/MacTutorial/GoDown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/MacTutorial/GoDown.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/MacTutorial/GoUpUp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/MacTutorial/GoUpUp.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/MacTutorial/Goup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/MacTutorial/Goup.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/MacTutorial/NoGoSpike.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/MacTutorial/NoGoSpike.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tutorial.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Tutorial.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tutorial/Frame.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tutorial/Frame.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoDown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoDown.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoNotSpike.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoNotSpike.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoUp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoUp.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoUpUp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tutorial/GoUpUp.png.meta" beforeDir="false" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Add TvOs tutorial">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,13 +148,6 @@
       <workItem from="1596970777287" duration="7147000" />
       <workItem from="1597087930166" duration="6506000" />
       <workItem from="1597226279137" duration="1596000" />
-    </task>
-    <task id="LOCAL-00068" summary="Fix coin bug">
-      <created>1597337018966</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1597337018966</updated>
     </task>
     <task id="LOCAL-00069" summary="Remove useless SFX">
       <created>1597337263069</created>
@@ -543,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597663017337</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Add TvOs tutorial">
+      <created>1597669435751</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1597669435751</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +515,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Set bundle id for mac" />
     <MESSAGE value="Mac game now allows the game to be not full screen" />
     <MESSAGE value="Add mac tutorial sprites" />
     <MESSAGE value="Implement tutorial" />
@@ -591,17 +539,18 @@
     <MESSAGE value="You can now see how many shapes you collected on the apple tv" />
     <MESSAGE value="You can now pause the game with the menu button on the apple tv remote" />
     <MESSAGE value="You can now go back with the menu button" />
-    <option name="LAST_COMMIT_MESSAGE" value="You can now go back with the menu button" />
+    <MESSAGE value="Add TvOs tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add TvOs tutorial" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog" timestamp="1597337568552">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1597337568552" />
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597663018263">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597669436756">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597663018263" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597669436756" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1597576071385" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
