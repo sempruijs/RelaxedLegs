@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
                 GoDown(false);
             }
           
-            if (Input.GetAxis("Button B") >= 0.000001f) {
+            if (Input.GetAxis("Button B") >= 0.000001f)  {
                 GoDown(true);
             }
           
