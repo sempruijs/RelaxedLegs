@@ -10,7 +10,12 @@ public class GameManager : MonoBehaviour
     public int coinsCollected;
     public ScoreBoardManager scoreBoardManager;
     public SelectButtonScript selectButtonScript;
+    
+    [Space(10)]
     public Button retry;
+    public Button resume;
+
+    private bool _isPaused = false;
     
     private static GameManager _instance;
          public static GameManager Instance {
@@ -58,10 +63,21 @@ public class GameManager : MonoBehaviour
         {
             Reset();
         }
+
+        if (!_isPaused)
+        {
+            if (Input.GetButtonDown("Menu"))
+            {
+                Pause();
+                selectButtonScript.SelectButton(resume);
+                _isPaused = true;
+            }
+        }
     }
 
     public void Menu()
     {
+        _isPaused = false;
         state = State.Menu;
         AudioManager.Instance.MenuMusic();
         DisplayManager.Instance.UpdateMenu();
@@ -70,6 +86,7 @@ public class GameManager : MonoBehaviour
 
     public void InGame()
     {
+        _isPaused = false;
         state = State.InGame;
         // AudioManager.Instance.Stop();
         player.GetComponent<Rigidbody2D>().gravityScale = 6;

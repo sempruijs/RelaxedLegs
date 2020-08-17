@@ -51,8 +51,6 @@ public class PlayerMovement : MonoBehaviour
             {
                 _isAllowedToJump = true;
             }
-            
-            Debug.Log(Input.GetAxis("Button B"));
 #else
            if (Input.GetKeyUp("down") || Input.GetKeyUp("s"))
            { 

@@ -66,6 +66,7 @@ public class DisplayManager : MonoBehaviour
         playAgain.SetActive(GameManager.Instance.state == GameManager.State.PlayAgain);
         credit.SetActive(GameManager.Instance.state == GameManager.State.Credit);
         settings.SetActive(GameManager.Instance.state == GameManager.State.Settings);
+        pause.SetActive(GameManager.Instance.state == GameManager.State.Pause);
 #if UNITY_TVOS
         if (GameManager.Instance.state == GameManager.State.InGame)
         {
