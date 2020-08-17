@@ -14294,6 +14294,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 747f9ab20eb9746f4bc56c81ba1122e6, type: 3}
   - {fileID: 21300000, guid: aeb1ff9b059d24aadbb1ae0db7d16150, type: 3}
   - {fileID: 21300000, guid: 3a2d5e0a8affc489b856b751e32f587e, type: 3}
+  spritesTv:
+  - {fileID: 21300000, guid: 705ff14850e0c483c82370f048bc9c54, type: 3}
+  - {fileID: 21300000, guid: e8bcb0a374d0a434ba863a9160152a93, type: 3}
+  - {fileID: 21300000, guid: eb7eadbac603f4067af76915d615f9e2, type: 3}
+  - {fileID: 21300000, guid: f47a92372d0f643589e2101c03a88d61, type: 3}
 --- !u!1 &1184312355
 GameObject:
   m_ObjectHideFlags: 0
@@ -16361,6 +16366,9 @@ MonoBehaviour:
   selectButtonScript: {fileID: 1942645040}
   retry: {fileID: 1640114394}
   resume: {fileID: 263489499}
+  tapToPlay: {fileID: 0}
+  backSettings: {fileID: 0}
+  backCredit: {fileID: 0}
 --- !u!4 &1444977038
 Transform:
   m_ObjectHideFlags: 0

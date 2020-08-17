@@ -7,6 +7,7 @@ public class TutorialHandler : MonoBehaviour
     private int _currentSprite = 0;
     public Sprite[] spritesIos;
     public Sprite[] spritesMac;
+    public Sprite[] spritesTv;
 
     public void Start()
     {
@@ -41,11 +42,12 @@ public class TutorialHandler : MonoBehaviour
 
     public void UpdateSprite()
     {
-        #if !UNITY_IOS
+        #if UNITY_STANDALONE
             imagesShower.GetComponent<Image>().sprite = spritesMac[_currentSprite];
-        #endif
-        #if UNITY_IOS
-            imagesShower.GetComponent<Image>().sprite = spritesIos[_currentSprite];
+        #elif UNITY_IOS
+           imagesShower.GetComponent<Image>().sprite = spritesIos[_currentSprite];
+        #elif UNITY_TVOS
+            imagesShower.GetComponent<Image>().sprite = spritesTv[_currentSprite];
         #endif
     }
 }

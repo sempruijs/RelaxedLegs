@@ -12,8 +12,12 @@ public class GameManager : MonoBehaviour
     public SelectButtonScript selectButtonScript;
     
     [Space(10)]
-    public Button retry;
-    public Button resume;
+    public Button retry; //Play Again
+    public Button resume; //Pause
+    public Button tapToPlay; //Menu
+    public Button backSettings; //Settings
+    public Button backCredit; //Credit
+    
 
     private bool _isPaused = false;
     
