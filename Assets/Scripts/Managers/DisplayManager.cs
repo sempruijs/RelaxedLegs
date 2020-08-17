@@ -24,6 +24,9 @@ public class DisplayManager : MonoBehaviour
 
     [Space(10)] 
     public SelectButtonScript selectButtonScript;
+
+    [Space(10)] 
+    public GameObject[] inGameButtonsAppleTv;
     
     private static DisplayManager _instance;
     public static DisplayManager Instance {
@@ -63,12 +66,16 @@ public class DisplayManager : MonoBehaviour
         playAgain.SetActive(GameManager.Instance.state == GameManager.State.PlayAgain);
         credit.SetActive(GameManager.Instance.state == GameManager.State.Credit);
         settings.SetActive(GameManager.Instance.state == GameManager.State.Settings);
-        #if UNITY_TVOS
-            pause.SetActive(false);
-            inGame.SetActive(false);
-        #else
-            inGame.SetActive(GameManager.Instance.state == GameManager.State.InGame);
-        #endif
+#if UNITY_TVOS
+        if (GameManager.Instance.state == GameManager.State.InGame)
+        {
+            foreach (var button in inGameButtonsAppleTv)
+            {
+                button.SetActive(false);
+            }
+        }
+#endif
+        inGame.SetActive(GameManager.Instance.state == GameManager.State.InGame);
         specialThanks.SetActive(GameManager.Instance.state == GameManager.State.SpecialThanks);
         tutorial.SetActive(GameManager.Instance.state == GameManager.State.Tutorial);
     }

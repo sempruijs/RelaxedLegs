@@ -3051,7 +3051,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &378048331
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14253,6 +14253,10 @@ MonoBehaviour:
   musicToggle: {fileID: 398333346}
   sfxToggle: {fileID: 1320467651}
   selectButtonScript: {fileID: 0}
+  inGameButtonsAppleTv:
+  - {fileID: 1105978545}
+  - {fileID: 981234800}
+  - {fileID: 1446783662}
 --- !u!4 &1163173476
 Transform:
   m_ObjectHideFlags: 0
@@ -17503,7 +17507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1573827015
 RectTransform:
   m_ObjectHideFlags: 0
