@@ -63,16 +63,34 @@ public class GameManager : MonoBehaviour
         {
             Reset();
         }
-
-        if (!_isPaused)
+        
+        if (Input.GetButtonDown("Menu"))
         {
-            if (Input.GetButtonDown("Menu"))
+            if (state == State.InGame)
             {
-                Pause();
-                selectButtonScript.SelectButton(resume);
-                _isPaused = true;
+                if (!_isPaused)
+                {
+                    Pause();
+                    selectButtonScript.SelectButton(resume);
+                    _isPaused = true;
+                }
+            } else if (state == State.Menu)
+            {
+                UnityEngine.tvOS.Remote.allowExitToHome = true;           
+            } else if (state == State.Credit)
+            {
+                Settings();
+            } else if (state == State.SpecialThanks)
+            {
+                Credit();
+            } else if (state == State.Settings)
+            {
+                Menu();
+            } else if (state == State.Tutorial)
+            {
+                Menu();
             }
-        }
+        } 
     }
 
     public void Menu()
@@ -86,6 +104,7 @@ public class GameManager : MonoBehaviour
 
     public void InGame()
     {
+        UnityEngine.tvOS.Remote.allowExitToHome = false;
         _isPaused = false;
         state = State.InGame;
         // AudioManager.Instance.Stop();
@@ -98,12 +117,14 @@ public class GameManager : MonoBehaviour
 
     public void Credit()
     {
+        UnityEngine.tvOS.Remote.allowExitToHome = false;
         state = State.Credit;
         DisplayManager.Instance.UpdateMenu();
     }
 
     public void Settings()
     {
+        UnityEngine.tvOS.Remote.allowExitToHome = false;
         state = State.Settings;
         DisplayManager.Instance.UpdateMenu();
     }
@@ -118,6 +139,7 @@ public class GameManager : MonoBehaviour
 
     public void Pause()
     {
+        UnityEngine.tvOS.Remote.allowExitToHome = false;
         state = State.Pause;
         player.GetComponent<Rigidbody2D>().gravityScale = 0;
         DisplayManager.Instance.UpdateMenu();
@@ -126,12 +148,14 @@ public class GameManager : MonoBehaviour
 
     public void SpecialThanks()
     {
+        UnityEngine.tvOS.Remote.allowExitToHome = false;
         state = State.SpecialThanks;
         DisplayManager.Instance.UpdateMenu();
     }
 
     public void Tutorial()
     {
+        UnityEngine.tvOS.Remote.allowExitToHome = false;
         state = State.Tutorial;
         DisplayManager.Instance.UpdateMenu();
     }

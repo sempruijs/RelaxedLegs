@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="You can now see how many shapes you collected on the apple tv">
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="You can now pause the game with the menu button on the apple tv remote">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,13 +149,6 @@
       <workItem from="1596970777287" duration="7147000" />
       <workItem from="1597087930166" duration="6506000" />
       <workItem from="1597226279137" duration="1596000" />
-    </task>
-    <task id="LOCAL-00066" summary="Remove MoveChunk.cs">
-      <created>1597334348897</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1597334348897</updated>
     </task>
     <task id="LOCAL-00067" summary="Remove Rotate.cs">
       <created>1597334535797</created>
@@ -497,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597659629088</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="You can now pause the game with the menu button on the apple tv remote">
+      <created>1597662243267</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1597662243268</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +516,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Set target SDK to Device" />
     <MESSAGE value="Add PcIcon" />
     <MESSAGE value="Set bundle id for mac" />
     <MESSAGE value="Mac game now allows the game to be not full screen" />
@@ -545,17 +540,18 @@
     <MESSAGE value="You can now click a button with the pause button with the apple tv remote" />
     <MESSAGE value="Fix tutorial UI bug" />
     <MESSAGE value="You can now see how many shapes you collected on the apple tv" />
-    <option name="LAST_COMMIT_MESSAGE" value="You can now see how many shapes you collected on the apple tv" />
+    <MESSAGE value="You can now pause the game with the menu button on the apple tv remote" />
+    <option name="LAST_COMMIT_MESSAGE" value="You can now pause the game with the menu button on the apple tv remote" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog" timestamp="1597337568552">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1597337568552" />
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597659629889">
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2" timestamp="1597662244408">
       <screen x="-1440" y="-338" width="1440" height="2537" />
     </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597659629889" />
+    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597662244408" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1597576071385" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
