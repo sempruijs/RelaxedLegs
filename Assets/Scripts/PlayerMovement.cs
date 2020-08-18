@@ -31,15 +31,15 @@ public class PlayerMovement : MonoBehaviour
       {
            // handel movement
 #if UNITY_TVOS
-            if (Input.GetAxis("Button B") < 0.000001f) {
+            if (Input.GetButtonUp("Button B")) {
                 GoDown(false);
             }
           
-            if (Input.GetAxis("Button B") >= 0.000001f)  {
+            if (Input.GetButtonDown("Button B"))  {
                 GoDown(true);
             }
           
-            if (Input.GetAxis("Button A") >= 0.000001f) {
+            if (Input.GetButtonDown("Button A")) {
                 if (_isAllowedToJump)
                 {
                     ActivateJump();
@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
 
-            if (Input.GetAxis("Button A") <= 0.000001f)
+            if (Input.GetButtonUp("Button A"))
             {
                 _isAllowedToJump = true;
             }

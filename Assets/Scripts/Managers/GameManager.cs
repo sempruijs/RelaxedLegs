@@ -84,15 +84,19 @@ public class GameManager : MonoBehaviour
             } else if (state == State.Credit)
             {
                 Settings();
+                selectButtonScript.SelectButton(backSettings);
             } else if (state == State.SpecialThanks)
             {
                 Credit();
+                selectButtonScript.SelectButton(backCredit);
             } else if (state == State.Settings)
             {
                 Menu();
+                selectButtonScript.SelectButton(tapToPlay);
             } else if (state == State.Tutorial)
             {
                 Menu();
+                selectButtonScript.SelectButton(tapToPlay);
             }
         } 
     }
@@ -177,7 +181,6 @@ public class GameManager : MonoBehaviour
         {
             Destroy(g);
         }
-
     }
 
     public void Reset()
