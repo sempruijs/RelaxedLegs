@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class DisplayManager : MonoBehaviour
 {
     public GameObject menu;
+    public GameObject menuTv;
     public GameObject inGame;
     public GameObject playAgain;
     public GameObject credit;
@@ -28,6 +29,17 @@ public class DisplayManager : MonoBehaviour
     [Space(10)] 
     public GameObject[] inGameButtonsAppleTv;
     
+    [Header("Buttons")]
+    public Button playButtonTv;
+    public Button playButton;
+    [Space(10)] 
+    public Button pauseButton;
+    public Button creditButton;
+    public Button specialThanksButton;
+    public Button settingsButton;
+    public Button playAgainButton;
+    public Button tutorialButton;
+    
     private static DisplayManager _instance;
     public static DisplayManager Instance {
         get {
@@ -47,6 +59,7 @@ public class DisplayManager : MonoBehaviour
     private void Start()
     {
         SetPlayText();
+        SelectMenu();
     }
 
     void Update()
@@ -62,7 +75,6 @@ public class DisplayManager : MonoBehaviour
 
     public void UpdateMenu()
     {
-        menu.SetActive(GameManager.Instance.state == GameManager.State.Menu);
         playAgain.SetActive(GameManager.Instance.state == GameManager.State.PlayAgain);
         credit.SetActive(GameManager.Instance.state == GameManager.State.Credit);
         settings.SetActive(GameManager.Instance.state == GameManager.State.Settings);
@@ -75,6 +87,9 @@ public class DisplayManager : MonoBehaviour
                 button.SetActive(false);
             }
         }
+        menuTv.SetActive(GameManager.Instance.state == GameManager.State.Menu);
+#else
+    menu.SetActive(GameManager.Instance.state == GameManager.State.Menu);
 #endif
         inGame.SetActive(GameManager.Instance.state == GameManager.State.InGame);
         specialThanks.SetActive(GameManager.Instance.state == GameManager.State.SpecialThanks);
@@ -97,7 +112,46 @@ public class DisplayManager : MonoBehaviour
             tapToPlayText.text = "Tap to play";
         #endif
         #if !UNITY_IOS
-            tapToPlayText.text = "Space to play";        
+            tapToPlayText.text = "Space to playq";        
         #endif
+    }
+
+    public void SelectMenu()
+    {
+#if UNITY_TVOS
+        selectButtonScript.SelectButton(playButtonTv);
+#else
+        selectButtonScript.SelectButton(playButton);
+#endif
+    }
+
+    public void SelectPause()
+    {
+        selectButtonScript.SelectButton(pauseButton);
+    }
+
+    public void SelectSettings()
+    {
+        selectButtonScript.SelectButton(settingsButton);
+    }
+
+    public void SelectCredit()
+    {
+        selectButtonScript.SelectButton(creditButton);
+    }
+
+    public void SelectSpecialThanks()
+    {
+        selectButtonScript.SelectButton(specialThanksButton);
+    }
+
+    public void SelectPlayAgain()
+    {
+        selectButtonScript.SelectButton(playAgainButton);
+    }
+
+    public void SelectTutorial()
+    {
+        selectButtonScript.SelectButton(tutorialButton);
     }
 }

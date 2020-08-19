@@ -75,7 +75,6 @@ public class GameManager : MonoBehaviour
                 if (!_isPaused)
                 {
                     Pause();
-                    selectButtonScript.SelectButton(resume);
                     _isPaused = true;
                 }
             } else if (state == State.Menu)
@@ -84,19 +83,18 @@ public class GameManager : MonoBehaviour
             } else if (state == State.Credit)
             {
                 Settings();
-                selectButtonScript.SelectButton(backSettings);
             } else if (state == State.SpecialThanks)
             {
                 Credit();
-                selectButtonScript.SelectButton(backCredit);
             } else if (state == State.Settings)
             {
                 Menu();
-                selectButtonScript.SelectButton(tapToPlay);
             } else if (state == State.Tutorial)
             {
                 Menu();
-                selectButtonScript.SelectButton(tapToPlay);
+            } else if (state == State.Pause)
+            {
+                Menu();
             }
         } 
     }
@@ -107,6 +105,7 @@ public class GameManager : MonoBehaviour
         state = State.Menu;
         AudioManager.Instance.MenuMusic();
         DisplayManager.Instance.UpdateMenu();
+        DisplayManager.Instance.SelectMenu();
         Time.timeScale = 1f;
     }
 
@@ -128,6 +127,7 @@ public class GameManager : MonoBehaviour
         UnityEngine.tvOS.Remote.allowExitToHome = false;
         state = State.Credit;
         DisplayManager.Instance.UpdateMenu();
+        DisplayManager.Instance.SelectCredit();
     }
 
     public void Settings()
@@ -135,6 +135,7 @@ public class GameManager : MonoBehaviour
         UnityEngine.tvOS.Remote.allowExitToHome = false;
         state = State.Settings;
         DisplayManager.Instance.UpdateMenu();
+        DisplayManager.Instance.SelectSettings();
     }
 
     public void PlayAgain()
@@ -142,7 +143,7 @@ public class GameManager : MonoBehaviour
         state = State.PlayAgain;
         DisplayManager.Instance.UpdateMenu();
         scoreBoardManager.PostScoreOnLeaderBoard(coinsCollected);
-        selectButtonScript.SelectButton(retry);
+        DisplayManager.Instance.SelectPlayAgain();
     }
 
     public void Pause()
@@ -152,6 +153,7 @@ public class GameManager : MonoBehaviour
         player.GetComponent<Rigidbody2D>().gravityScale = 0;
         DisplayManager.Instance.UpdateMenu();
         Time.timeScale = 0f;
+        DisplayManager.Instance.SelectPause();
     }
 
     public void SpecialThanks()
@@ -159,6 +161,7 @@ public class GameManager : MonoBehaviour
         UnityEngine.tvOS.Remote.allowExitToHome = false;
         state = State.SpecialThanks;
         DisplayManager.Instance.UpdateMenu();
+        DisplayManager.Instance.SelectSpecialThanks();
     }
 
     public void Tutorial()
@@ -166,6 +169,7 @@ public class GameManager : MonoBehaviour
         UnityEngine.tvOS.Remote.allowExitToHome = false;
         state = State.Tutorial;
         DisplayManager.Instance.UpdateMenu();
+        DisplayManager.Instance.SelectTutorial();
     }
     
     public void ReloadCurrentScene() 
