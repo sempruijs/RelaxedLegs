@@ -19,7 +19,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Fix aspect ratio bug" />
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Higher build and version number">
+      <change afterPath="$PROJECT_DIR$/Screenshots/TvOs_8-19_14-1-37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/TvOs_8-19_14-1-53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/TvOs_8-19_14-2-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/TvOs_8-19_14-2-33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/TvOs_8-19_14-2-39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/TvOs_8-19_14-2-41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/TvOs_8-19_14-2-44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/TvOs_8-19_14-2-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/TvOs_8-19_14-3-43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/TvOs_8-19_14-3-46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/TvOs_8-19_14-3-51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/TvOs_8-19_14-3-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_13_20,_5_36_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_13_20__5_36_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/shelf/Uncommitted_changes_before_Update_at_8_13_20,_5_42_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/shelf/Uncommitted_changes_before_Update_at_8_13_20__5_42_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/mac_8-14_20-27-23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/mac_8-14_20-27-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/mac_8-14_20-27-57.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,8 +103,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TutorialHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/DisplayManager.cs" />
       </list>
     </option>
   </component>
@@ -136,14 +159,8 @@
       <workItem from="1596970777287" duration="7147000" />
       <workItem from="1597087930166" duration="6506000" />
       <workItem from="1597226279137" duration="1596000" />
-      <workItem from="1597781207719" duration="4121000" />
-    </task>
-    <task id="LOCAL-00073" summary="Remove screenshot folder">
-      <created>1597395976664</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1597395976664</updated>
+      <workItem from="1597781207719" duration="4906000" />
+      <workItem from="1598002495251" duration="35000" />
     </task>
     <task id="LOCAL-00074" summary="Rename SampleScene.unity to MainScene.unity">
       <created>1597396179988</created>
@@ -481,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597835215981</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Higher build and version number">
+      <created>1597837445371</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1597837445371</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +528,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="You cannot jump now with space" />
     <MESSAGE value="Add apple tv icon" />
     <MESSAGE value="Add top shelf icon for apple tv" />
     <MESSAGE value="Add Input for apple tv" />
@@ -529,20 +552,21 @@
     <MESSAGE value="Change GetAxis to GetButtonUp and GetButtonDown" />
     <MESSAGE value="You can now navigate completely with the Apple Tv Remote" />
     <MESSAGE value="Fix aspect ratio bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix aspect ratio bug" />
+    <MESSAGE value="Higher build and version number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Higher build and version number" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog" timestamp="1597337568552">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1597337568552" />
-    <state x="-1063" y="131" key="Vcs.Push.Dialog.v2" timestamp="1597835217634">
+    <state x="-1063" y="131" key="Vcs.Push.Dialog.v2" timestamp="1597837446848">
       <screen x="-1440" y="-494" width="1440" height="2537" />
     </state>
     <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597670456185" />
     <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1597576071385" />
-    <state x="-1063" y="131" key="Vcs.Push.Dialog.v2/153.1463.1280.777/0.23.2560.1417/-1440.-494.1440.2537@-1440.-494.1440.2537" timestamp="1597835217634" />
+    <state x="-1063" y="131" key="Vcs.Push.Dialog.v2/153.1463.1280.777/0.23.2560.1417/-1440.-494.1440.2537@-1440.-494.1440.2537" timestamp="1597837446848" />
     <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

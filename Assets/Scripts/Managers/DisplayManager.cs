@@ -112,7 +112,7 @@ public class DisplayManager : MonoBehaviour
             tapToPlayText.text = "Tap to play";
         #endif
         #if !UNITY_IOS
-            tapToPlayText.text = "Space to playq";        
+            tapToPlayText.text = "Space to play";        
         #endif
     }
 
