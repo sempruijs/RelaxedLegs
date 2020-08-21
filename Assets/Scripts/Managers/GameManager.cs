@@ -79,7 +79,9 @@ public class GameManager : MonoBehaviour
                 }
             } else if (state == State.Menu)
             {
-                UnityEngine.tvOS.Remote.allowExitToHome = true;           
+#if UNITY_TVOS
+                UnityEngine.tvOS.Remote.allowExitToHome = true;
+#endif
             } else if (state == State.Credit)
             {
                 Settings();
@@ -111,7 +113,9 @@ public class GameManager : MonoBehaviour
 
     public void InGame()
     {
-        UnityEngine.tvOS.Remote.allowExitToHome = false;
+            #if UNITY_TVOS
+                UnityEngine.tvOS.Remote.allowExitToHome = false;
+            #endif
         _isPaused = false;
         state = State.InGame;
         // AudioManager.Instance.Stop();
@@ -124,7 +128,9 @@ public class GameManager : MonoBehaviour
 
     public void Credit()
     {
-        UnityEngine.tvOS.Remote.allowExitToHome = false;
+#if UNITY_TVOS
+                UnityEngine.tvOS.Remote.allowExitToHome = false;
+#endif
         state = State.Credit;
         DisplayManager.Instance.UpdateMenu();
         DisplayManager.Instance.SelectCredit();
@@ -132,7 +138,9 @@ public class GameManager : MonoBehaviour
 
     public void Settings()
     {
-        UnityEngine.tvOS.Remote.allowExitToHome = false;
+#if UNITY_TVOS
+                UnityEngine.tvOS.Remote.allowExitToHome = false;
+#endif
         state = State.Settings;
         DisplayManager.Instance.UpdateMenu();
         DisplayManager.Instance.SelectSettings();
@@ -148,7 +156,9 @@ public class GameManager : MonoBehaviour
 
     public void Pause()
     {
-        UnityEngine.tvOS.Remote.allowExitToHome = false;
+#if UNITY_TVOS
+                UnityEngine.tvOS.Remote.allowExitToHome = false;
+#endif
         state = State.Pause;
         player.GetComponent<Rigidbody2D>().gravityScale = 0;
         DisplayManager.Instance.UpdateMenu();
@@ -158,7 +168,9 @@ public class GameManager : MonoBehaviour
 
     public void SpecialThanks()
     {
-        UnityEngine.tvOS.Remote.allowExitToHome = false;
+#if UNITY_TVOS
+                UnityEngine.tvOS.Remote.allowExitToHome = false;
+#endif
         state = State.SpecialThanks;
         DisplayManager.Instance.UpdateMenu();
         DisplayManager.Instance.SelectSpecialThanks();
@@ -166,7 +178,9 @@ public class GameManager : MonoBehaviour
 
     public void Tutorial()
     {
-        UnityEngine.tvOS.Remote.allowExitToHome = false;
+#if UNITY_TVOS
+                UnityEngine.tvOS.Remote.allowExitToHome = false;
+#endif
         state = State.Tutorial;
         DisplayManager.Instance.UpdateMenu();
         DisplayManager.Instance.SelectTutorial();
