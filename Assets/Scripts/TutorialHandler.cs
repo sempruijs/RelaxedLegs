@@ -42,7 +42,7 @@ public class TutorialHandler : MonoBehaviour
 
     public void UpdateSprite()
     {
-        #if UNITY_STANDALONE
+        #if UNITY_STANDALONE || UNITY_WEBGL
             imagesShower.GetComponent<Image>().sprite = spritesMac[_currentSprite];
         #elif UNITY_IOS
            imagesShower.GetComponent<Image>().sprite = spritesIos[_currentSprite];
