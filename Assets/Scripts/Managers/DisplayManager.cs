@@ -39,6 +39,7 @@ public class DisplayManager : MonoBehaviour
     public Button settingsButton;
     public Button playAgainButton;
     public Button tutorialButton;
+    public GameObject leaderboardButton;
     
     private static DisplayManager _instance;
     public static DisplayManager Instance {
@@ -60,6 +61,9 @@ public class DisplayManager : MonoBehaviour
     {
         SetPlayText();
         SelectMenu();
+        #if UNITY_WEBGL
+            leaderboardButton.SetActive(false);
+        #endif
     }
 
     void Update()
