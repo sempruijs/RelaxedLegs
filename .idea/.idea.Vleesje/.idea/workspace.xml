@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="Fix the tutorial frame bug">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vleesje/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 13.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Chunks/Chunk 13.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreBoardManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TutorialHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TutorialHandler.cs" afterDir="false" />
-    </list>
+    <list default="true" id="5de52269-40aa-4fef-a3c0-983ea52107f5" name="Default Changelist" comment="You can now see the tutorial with arrow keys if the platform is webgl" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,14 +146,7 @@
       <workItem from="1597226279137" duration="1596000" />
       <workItem from="1597781207719" duration="4906000" />
       <workItem from="1598002495251" duration="1295000" />
-      <workItem from="1606819517381" duration="371000" />
-    </task>
-    <task id="LOCAL-00077" summary="Remove ChangeStateOnCollision.cs">
-      <created>1597396978957</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1597396978957</updated>
+      <workItem from="1606819517381" duration="711000" />
     </task>
     <task id="LOCAL-00078" summary="Update ChunkMover.cs">
       <created>1597397495147</created>
@@ -500,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598003688413</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="You can now see the tutorial with arrow keys if the platform is webgl">
+      <created>1606820004860</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1606820004862</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +514,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Remove debug.log line" />
     <MESSAGE value="Bug fixes" />
     <MESSAGE value="Bug fix at line 67 and 68" />
     <MESSAGE value="Fix app icon tvos bug" />
@@ -548,28 +538,13 @@
     <MESSAGE value="Remove q after Space to play in DisplayManager.cs" />
     <MESSAGE value="Only set UnityEngine.tvOs.Remote.allowExitTohome if platform is equal to tv os" />
     <MESSAGE value="Fix the tutorial frame bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix the tutorial frame bug" />
+    <MESSAGE value="You can now see the tutorial with arrow keys if the platform is webgl" />
+    <option name="LAST_COMMIT_MESSAGE" value="You can now see the tutorial with arrow keys if the platform is webgl" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog" timestamp="1597337568552">
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1606820006464">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="100" y="123" width="1480" height="827" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1597337568552" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1598003689669">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="-1063" y="287" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597670456185" />
-    <state x="670" y="372" key="Vcs.Push.Dialog.v2/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@0.23.2560.1417" timestamp="1597069483962" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1598003689669" />
-    <state x="-1063" y="131" key="Vcs.Push.Dialog.v2/153.1463.1280.777/0.23.2560.1417/-1440.-494.1440.2537@-1440.-494.1440.2537" timestamp="1597837446848" />
-    <state x="493" y="169" width="694" height="735" key="find.popup" timestamp="1596886316296">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="493" y="169" width="694" height="735" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1596886316296" />
-    <state x="-1057" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1597614925578">
-      <screen x="-1440" y="-338" width="1440" height="2537" />
-    </state>
-    <state x="-1057" y="265" width="672" height="678" key="search.everywhere.popup/0.1463.1280.777/0.23.2560.1417/-1440.-338.1440.2537@-1440.-338.1440.2537" timestamp="1597614925578" />
-    <state x="447" y="267" width="672" height="678" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1597575005264" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1606820006464" />
   </component>
 </project>
